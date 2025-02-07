@@ -54,6 +54,18 @@ function colonylib.GetHungryCitizenCount()
     return counter
 end
 
+
+function colonylib.GetCitizenHappiness()
+    local happiness = 0
+    local counter = 0
+    local ci = peripheral.find('colonyIntegrator')
+    for _, cit in pairs(ci.getCitizens()) do
+            happiness  = happiness + cit.happiness
+            counter = counter + 1
+    end
+    return happiness / counter
+end
+
 function colonylib.WriteToFile(input, fileName, mode)
     local file = io.open(fileName, mode)
     io.output(file)
@@ -91,6 +103,7 @@ function colonylib.GetStatusOfAttachedDevices()
         end
     end
 
+    MM['getCitizenHappiness'] = colonylib.GetCitizenHappiness()
     MM['getHungryCitizens'] = colonylib.GetHungryCitizenCount()
     MM['getSleepingCitizens'] = colonylib.GetSleepingCitizenCount()
     MM['getCitizens'] = colonylib.GetCitizens()

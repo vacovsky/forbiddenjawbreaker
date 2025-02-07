@@ -6,7 +6,7 @@ local net = require 'lib/network'
 
 -- CONFIGURATION SECTION
 local REFRESH_TIME = 60
-local POWER_BANK = 'enderio:vibrant_capacitor_bank'
+local POWER_BANK = 'enderio:basic_capacitor_bank_0'
 -- END CONFIGURATION SECTION
 ----------------------------------
 local monitor = peripheral.find("monitor")
@@ -62,24 +62,26 @@ function WarehouseStats()
     end
 end
 
-function PowerStats() 
+function PowerStats()
     local data = {
         energy_capacity = 0,
         energy_stored = 0
     }
-    for _, batt in pairs(net.ListMatchingDevices(POWER_BANK)) do
-        local powerPeripheral = peripheral.wrap(batt)
+    -- for _, batt in pairs(net.ListMatchingDevices(POWER_BANK)) do
+        -- print(batt)
+        local powerPeripheral = peripheral.wrap(POWER_BANK)
         data.energy_capacity = data.energy_capacity + powerPeripheral.getEnergyCapacity()
         data.energy_stored = data.energy_stored + powerPeripheral.getEnergy()
-    end
+    -- end
+    print("power", data.energy_stored , data.energy_capacity)
     tsdb.WriteOutput("ForbiddenJawbreaker:MerlinsButthair", "power", data, "power.json")
 end
 
 
 print('Starting stats collection...')
 while true do
-    if not pcall(WarehouseStats) then print('WarehouseStats() failed to complete') end
     if not pcall(PowerStats) then print('PowerStats() failed to complete') end
+    if not pcall(WarehouseStats) then print('WarehouseStats() failed to complete') end
     -- PowerStats()
     sleep(REFRESH_TIME)
 end
