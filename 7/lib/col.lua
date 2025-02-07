@@ -93,6 +93,7 @@ function colonylib.GetStatusOfAttachedDevices()
 
     MM['getHungryCitizens'] = colonylib.GetHungryCitizenCount()
     MM['getSleepingCitizens'] = colonylib.GetSleepingCitizenCount()
+    MM['getCitizens'] = colonylib.GetCitizens()
     MM['getSickCitizens'] = colonylib.GetSickCitizenCount()
     _, MM['unstaffedBuldingCount'] = colonylib.GetUnstaffedBuldingTypes()
     MM['activeResearchCount'] = colonylib.GetActiveResearchCount()
@@ -139,6 +140,14 @@ function colonylib.GetUnemployedCitizens()
     end
     return count
 end
+
+
+function colonylib.GetCitizens()
+    local count = 0
+    local citizens = peripheral.find('colonyIntegrator').getCitizens()
+    return #citizens
+end
+
 
 function colonylib.GetActiveResearchCount()
     local research = peripheral.find('colonyIntegrator').getResearch()
