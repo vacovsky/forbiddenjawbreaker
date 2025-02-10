@@ -8,7 +8,7 @@ shell.openTab("warehouse_scoreboard")
 
 
 local MAX_ITEM_COUNT = 9999
-local DESTINATION_STORAGE = 'minecraft:barrel_0'
+local DESTINATION_STORAGE = 'minecraft:barrel_2'
 local ITEM_NAME_MIN = 4
 
 function DeliverItem(itemName, itemCount, exact)

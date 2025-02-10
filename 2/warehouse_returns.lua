@@ -1,4 +1,4 @@
-local DROPBOX = 'minecraft:barrel_0'
+local DROPBOX = 'minecraft:barrel_2'
 
 local whi = require 'lib/whi'
 local var = require 'lib/constants'
