@@ -12,6 +12,8 @@ local amethysToGemIbuementChambers = {
     "ars_nouveau:imbuement_chamber_13",
     "ars_nouveau:imbuement_chamber_15",
     "ars_nouveau:imbuement_chamber_16",
+    "ars_nouveau:imbuement_chamber_17",
+    "ars_nouveau:imbuement_chamber_18",
 }
 
 function ImbueGemsToEssences() 

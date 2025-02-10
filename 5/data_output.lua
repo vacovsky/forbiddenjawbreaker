@@ -15,7 +15,7 @@ while true do
     print("Loop " .. loopCounter .. " started.")
     local last = colony.GetStatusOfAttachedDevices()
 
-    tsdb.WriteOutput("ForbiddenJawbreaker:DonColony", "colony", last, "colony.json")
+    tsdb.WriteOutput("ForbiddenJawbreaker:WidhillOnTheWater", "colony", last, "colony.json")
 
     print("Loop " .. loopCounter .. " finished. Next pass in " .. WAIT_SECONDS .. " seconds.")
     sleep(WAIT_SECONDS)

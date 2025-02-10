@@ -104,6 +104,8 @@ function colonylib.GetStatusOfAttachedDevices()
     end
 
     MM['getCitizenHappiness'] = colonylib.GetCitizenHappiness()
+    MM['getRequests'] = colonylib.GetOpenRequestsCount()
+    MM['getWorkOrders'] = colonylib.GetOpenWorkOrdersCount()
     MM['getHungryCitizens'] = colonylib.GetHungryCitizenCount()
     MM['getSleepingCitizens'] = colonylib.GetSleepingCitizenCount()
     MM['getCitizens'] = colonylib.GetCitizens()
@@ -261,6 +263,16 @@ end
 
 function colonylib.GetOpenRequestsCount()
     local requests = peripheral.find('colonyIntegrator').getRequests()
+    local count = 0
+    for k, v in pairs(requests) do
+        count = count + 1
+    end
+    return count
+end
+
+
+function colonylib.GetOpenWorkOrdersCount()
+    local requests = peripheral.find('colonyIntegrator').getWorkOrders()
     local count = 0
     for k, v in pairs(requests) do
         count = count + 1
