@@ -44,4 +44,11 @@ ars_enchanter_recipes.aqua_affinity = {
     'minecraft:lapis_block',
 }
 
+ars_enchanter_recipes.arcanist_armor = {
+    'ars_nouveau:magebloom_fiber',
+    'ars_nouveau:magebloom_fiber',
+    'ars_nouveau:magebloom_fiber',
+    'ars_nouveau:magebloom_fiber',
+}
+
 return ars_enchanter_recipes

@@ -42,8 +42,10 @@ function AttendFurnaces()
             -- Refuel furnaces
             -- print(whi.GetFromAnyWarehouse(false, coalfuel, furnace, 64, 2), 'fueled (coal)')
             print(whi.DepositInAnyWarehouse(furnace, 2), 'deposited')
+
             print(whi.GetFromAnyWarehouse(false, waxfuel, furnace, 64, 2), 'fueled (wax)')
-            print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 64, 2), 'fueled (wax)')
+            
+            print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 64, 2), 'fueled (lava)')
             -- sc.pull(waxfuel, 8, true, furnace, 2)
             -- move smelted items to warehouse
             print(whi.DepositInAnyWarehouse(furnace, 3), 'deposited')
