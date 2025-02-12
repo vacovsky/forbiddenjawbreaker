@@ -1,6 +1,7 @@
 local json = require "lib/json"
 local vars = require "lib/constants"
 local whi = require "lib/whi"
+local net = require "lib/network"
 -- local sc = require "lib/sc"
 
 -- local combs_source = 'enderstorage:ender_chest_5'
@@ -8,20 +9,20 @@ local combs_dest = 'enderstorage:ender_chest_5'
 -- local combs_dest = 'sophisticatedstorage:chest_2'
 -- local combs_dest = 'pneumaticcraft:reinforced_chest_1'
 
-function ListHives()
-    local list = {}
-    local peripherals = peripheral.getNames()
-    for _, attached_peripheral in pairs(peripherals) do
-        if string.find(attached_peripheral, vars.hives) then
-            list[#list + 1] = attached_peripheral
-        end
-    end
-    return list
-end
+-- function ListHives()
+--     local list = {}
+--     local peripherals = peripheral.getNames()
+--     for _, attached_peripheral in pairs(peripherals) do
+--         if string.find(attached_peripheral, vars.hives) then
+--             list[#list + 1] = attached_peripheral
+--         end
+--     end
+--     return list
+-- end
 
 function CollectFromHives()
     local combsMoved = 0
-    for _, hive in pairs(ListHives()) do
+    for _, hive in pairs(net.ListMatchingDevices(vars.hives)) do
         local phive = peripheral.wrap(hive)
         local pcombdest = peripheral.wrap(combs_dest)
         for slot, item in pairs(phive.list()) do

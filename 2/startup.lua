@@ -22,7 +22,7 @@ function DeliverItem(itemName, itemCount, exact)
     if itemCount > MAX_ITEM_COUNT then print('Max item count allowed is', MAX_ITEM_COUNT)
         itemCount = MAX_ITEM_COUNT
     end
-    foundCount = 0
+    local foundCount = 0
     if exact then
         foundCount = foundCount + whi.GetFromAnyWarehouse(false, itemName, DESTINATION_STORAGE, itemCount, slot)
     else
