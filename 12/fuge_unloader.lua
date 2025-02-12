@@ -28,7 +28,7 @@ end
 while true do
     -- UnloadFuges()
     if not pcall(UnloadFuges) then print('0:UnloadFuges() exited with error') end
-    if not pcall(UnloadFuges) then print('1:UnloadFuges() exited with error') end
-    if not pcall(UnloadFuges) then print('2:UnloadFuges() exited with error') end
+    -- if not pcall(UnloadFuges) then print('1:UnloadFuges() exited with error') end
+    -- if not pcall(UnloadFuges) then print('2:UnloadFuges() exited with error') end
     sleep(0.1)
 end
