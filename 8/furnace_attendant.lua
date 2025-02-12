@@ -37,8 +37,11 @@ function AttendFurnaces()
     for _, raw_item in pairs(raw_items) do
         local moved = 0
         for _, furnace in pairs(net.ListMatchingDevices(furnaces)) do
+
+
             -- Refuel furnaces
             -- print(whi.GetFromAnyWarehouse(false, coalfuel, furnace, 64, 2), 'fueled (coal)')
+            print(whi.DepositInAnyWarehouse(furnace, 2), 'deposited')
             print(whi.GetFromAnyWarehouse(false, waxfuel, furnace, 64, 2), 'fueled (wax)')
             print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 64, 2), 'fueled (wax)')
             -- sc.pull(waxfuel, 8, true, furnace, 2)
@@ -58,6 +61,7 @@ function AttendFurnaces()
 end
 
 function FuelGenerators()
+
     -- sc.pull(raw_item, 8, true, furnace, 1)
 
     -- print(sc.pull(waxfuel, 1024, true, generator_coalbox), 'gen: fueled (wax)')
@@ -70,7 +74,7 @@ function FuelGenerators()
 end
 
 while true do
-    -- if not pcall(FuelGenerators) then print('FuelGenerators() failed to complete') end
+    if not pcall(FuelGenerators) then print('FuelGenerators() failed to complete') end
     -- FuelGenerators()
     -- if not pcall(AttendFurnaces) then print('AttendFurnaces() failed to complete') end
     AttendFurnaces()

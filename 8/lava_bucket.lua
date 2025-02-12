@@ -3,17 +3,17 @@ local net = require 'lib/network'
 local whi = require 'lib/whi'
 
 local fluid_storage = 'enderio:fluid_tank_1'
-local bottler = 'create:depot_0'
+local bottler = 'create:depot_2'
 local dispenser = 'create:spout_0'
 
 function BucketFiller()
     -- FILL SPOUT
-    local lava = 0
-    lava = peripheral.wrap(fluid_storage).pushFluid(dispenser)
+    local lava = peripheral.wrap(fluid_storage).pushFluid(dispenser)
     if lava > 0 then print('Refilled', lava, 'lava mb') end
 
     -- BOTTLER
     local container = peripheral.wrap(bottler)
+
     -- PLACE FILLED buckets IN WAREHOUSE
     for slot, item in pairs(container.list()) do
         if item.name == 'minecraft:lava_bucket' then
@@ -21,10 +21,10 @@ function BucketFiller()
             if depositNum > 0 then print('Filled', depositNum, 'lava buckets') end
         end
     end
-    -- REFILL WITH EMPTY buckets
-    local restockNum = whi.GetFromAnyWarehouse('minecraft:bucket', bottler, 16, false)
-    if restockNum > 0 then print('Restocked', restockNum, 'buckets') end
 
+    -- REFILL WITH EMPTY buckets
+    local restockNum = whi.GetFromAnyWarehouse(false, 'minecraft:bucket', bottler, 16)
+    if restockNum > 0 then print('Restocked', restockNum, 'buckets') end
 end
 
 
