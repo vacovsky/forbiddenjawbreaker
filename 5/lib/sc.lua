@@ -79,6 +79,7 @@ function sc.pull(itemName, quantity, strict, destStorageName, destSlot)
         end
     end
     logRequestTime("sc.pull", os.epoch('utc') - req_start)
+    sleep(1)
     return tot_transferred
 end
 

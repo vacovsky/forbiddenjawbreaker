@@ -6,7 +6,7 @@ local net = require 'lib/network'
 
 -- CONFIGURATION SECTION
 local REFRESH_TIME = 60
-local POWER_BANK = 'enderio:basic_capacitor_bank_0'
+local POWER_BANK = 'enderio:basic_capacitor_bank'
 -- END CONFIGURATION SECTION
 ----------------------------------
 local monitor = peripheral.find("monitor")

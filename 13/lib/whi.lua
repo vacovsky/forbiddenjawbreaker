@@ -8,7 +8,7 @@ local warehouse_interface = { _version = '0.0.10' }
 
 local net = require "lib/network"
 
-local warehouses_list = {'functionalstorage:storage_controller', 'sophisticatedstorage:chest'} -- "pneumaticcraft:reinforced_chest"
+local warehouses_list = {'functionalstorage:storage_controller', 'sophisticatedstorage:chest', 'minecolonies:warehouse'} -- "pneumaticcraft:reinforced_chest"
 
 function warehouse_interface.InventoryUsedPercentage()
     local total_slots = 0

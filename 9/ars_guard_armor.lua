@@ -1,7 +1,3 @@
-local local_modem = "back"
-rednet.open(local_modem)
-rednet.host("storage_client", ("%s"):format(os.getComputerID()))
-shell.openTab("source_stone_imbuer")
 
 local whi = require 'lib/whi'
 local tsdb = require 'lib/tsdb'
@@ -26,8 +22,8 @@ function UnloadAllPedestals()
     for _, ped in pairs(peds) do
         local p = peripheral.wrap(ped)
         for slot, item in pairs(p.list()) do
-            -- sc.push(ped, slot)
-            whi.DepositInAnyWarehouse(ped, slot)
+            sc.push(ped, slot)
+            -- whi.DepositInAnyWarehouse(ped, slot)
         end
     end
 end
@@ -35,7 +31,9 @@ end
 function ReturnTargetItemToUser()
     -- local ea = peripheral.wrap(enchanter)
     -- for slot, item in pairs(ea.list()) do
-        whi.DepositInAnyWarehouse(enchanter, 1)
+        -- whi.DepositInAnyWarehouse(enchanter, 1)
+        sc.push(enchanter, 1)
+
         -- ea.pushItems(ITEM_OUTPUT, slot)
     -- end
 end

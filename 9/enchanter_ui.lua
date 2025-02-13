@@ -1,9 +1,3 @@
-local local_modem = "back"
-rednet.open(local_modem)
-rednet.host("storage_client", ("%s"):format(os.getComputerID()))
-
-
-shell.openTab("source_stone_imbuer")
 
 local whi = require 'lib/whi'
 local tsdb = require 'lib/tsdb'

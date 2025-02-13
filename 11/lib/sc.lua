@@ -1,7 +1,7 @@
 -- lib/sc.lua
 -- storage_client
 
-local sc = { _version = '0.0.4' }
+local sc = { _version = '0.0.5' }
 
 local tsdb = require 'lib/tsdb'
 

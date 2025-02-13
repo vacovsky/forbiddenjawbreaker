@@ -36,6 +36,7 @@ local raw_items = {
 function AttendFurnaces()
     for _, raw_item in pairs(raw_items) do
         local moved = 0
+        local stored = 0
         for _, furnace in pairs(net.ListMatchingDevices(furnaces)) do
             -- Refuel furnaces
             -- print(whi.GetFromAnyWarehouse(false, coalfuel, furnace, 64, 2), 'fueled (coal)')
@@ -44,11 +45,11 @@ function AttendFurnaces()
             -- print(whi.GetFromAnyWarehouse(false, waxfuel, furnace, 64, 2), 'fueled (wax)', furnace)
             
             -- print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 1, 2), 'fueled (lava)', furnace)
-            sc.pull(waxfuel, 8, true, furnace, 2)
+            moved = moved + sc.pull(waxfuel, 8, true, furnace, 2)
             -- sc.pull(waxfuel, 8, true, furnace, 2)
             -- move smelted items to warehouse
             -- print('deposited', whi.DepositInAnyWarehouse(furnace, 3), 'items')
-            sc.push(furnace, 3)
+            stored = moved + sc.push(furnace, 3)
             -- move item for smelting to furnace
             moved = moved + sc.pull(raw_item, 8, false, furnace, 1)
             -- moved = moved + whi.GetFromAnyWarehouse(true, raw_item, furnace, 64, 1)
@@ -57,6 +58,7 @@ function AttendFurnaces()
             -- end
         end
         if moved > 0 then print(moved, raw_item) end
+        if stored > 0 then print(stored, "processed items") end
         -- ::next_item::
     end
 end
@@ -77,8 +79,8 @@ end
 while true do
     -- if not pcall(FuelGenerators) then print('FuelGenerators() failed to complete') end
     -- FuelGenerators()
-    -- if not pcall(AttendFurnaces) then print('AttendFurnaces() failed to complete') end
-    AttendFurnaces()
+    if not pcall(AttendFurnaces) then print('AttendFurnaces() failed to complete') end
+    -- AttendFurnaces()
 
     -- pcall(FuelGenerators)
     -- pcall(AttendFurnaces())
