@@ -50,11 +50,12 @@ constants.inbound_storages = {
 }
 
 constants.p1_storage_strings = {
-    "functionalstorage:storage_controller_",
+    "sophisticatedstorage:chest_",
 }
 
 constants.p2_storage_strings = {
-    "sophisticatedstorage:chest_"
+    "minecolonies:warehouse",
+    "functionalstorage:storage_controller_",
 }
 
 return constants
