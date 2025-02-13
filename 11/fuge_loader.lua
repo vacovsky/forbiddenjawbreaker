@@ -26,6 +26,6 @@ while true do
         end
     end
 
-    print('Tranferred', combsMoved, 'combs')
+    if combsMoved > 0 then print('Tranferred', combsMoved, 'combs') end
     sleep(5)
 end

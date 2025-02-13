@@ -1,7 +1,7 @@
 -- startup.lua
--- local_modem = "bottom"
--- rednet.open(local_modem)
--- rednet.host("storage_client", ("%s"):format(os.getComputerID()))
+local local_modem = "back"
+rednet.open(local_modem)
+rednet.host("storage_client", ("%s"):format(os.getComputerID()))
 
 
 shell.openTab("furnace_attendant")

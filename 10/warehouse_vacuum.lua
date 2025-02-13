@@ -6,10 +6,9 @@ local COLONY_NAME = 'Nolins'
 
 local source_inventories = {
     'sophisticatedstorage:barrel_1',
-    'minecraft:barrel_2',
-    'minecraft:barrel_1',
-    -- 'sophisticatedstorage:barrel_4',
-    -- 'enderstorage:ender_chest_2'
+    'sophisticatedstorage:barrel_0',
+    'sophisticatedstorage:barrel_4',
+    'enderstorage:ender_chest_2'
 }
 
 function WriteToFile(input, fileName, mode)

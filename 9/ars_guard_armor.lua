@@ -1,13 +1,13 @@
--- local local_modem = "back"
--- rednet.open(local_modem)
--- rednet.host("storage_client", ("%s"):format(os.getComputerID()))
--- shell.openTab("source_stone_imbuer")
+local local_modem = "back"
+rednet.open(local_modem)
+rednet.host("storage_client", ("%s"):format(os.getComputerID()))
+shell.openTab("source_stone_imbuer")
 
 local whi = require 'lib/whi'
 local tsdb = require 'lib/tsdb'
 local net = require 'lib/network'
 local enchants = require 'lib/ars_enchanter_recipes'
--- local sc = require "lib/sc"
+local sc = require "lib/sc"
 
 local ITEM_INPUT = 'warehouse'
 local ITEM_OUTPUT = 'warehouse'
@@ -43,7 +43,9 @@ end
 function PlaceTargetItemInEnchanter()
     for _, armor in pairs(armors) do
         -- local input = peripheral.wrap(ITEM_INPUT)
-        local moved = whi.GetFromAnyWarehouse(false, armor, enchanter, 1)
+        local moved = 0
+        moved = sc.pull(armor, 1, true, enchanter)
+        -- local moved = whi.GetFromAnyWarehouse(false, armor, enchanter, 1)
         -- whi.GetFromAnyWarehouse(false, 'ars_nouveau:source_gem', ic, 1)
         if moved > 0 then goto breakout end
 
@@ -60,8 +62,9 @@ function LoadPedestalsWithMaterials(recipe)
     for _, mat in pairs(recipe) do
         local moved = 0
         for _, ped in pairs(peds) do
-            moved = whi.GetFromAnyWarehouse(false, mat, ped, 1)
-            -- moved = sc.pull(mat, 1, true, ped)
+            -- sc.pull(mat, 1, false, ped, nil)
+            -- moved = whi.GetFromAnyWarehouse(false, mat, ped, 1)
+            moved = sc.pull(mat, 1, true, ped)
             if moved > 0 then goto next end
         end
         ::next::

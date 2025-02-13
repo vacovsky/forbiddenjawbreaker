@@ -19,7 +19,8 @@ while true do
     local parts = string.gmatch(msg, "%S+")
     local item = parts(1)
     local quantity = parts(2)
-    if item == nil or quantity == nil then goto inputend end
+    if item == nil then goto inputend end
+    if quantity == nil then quantity = "64" end
     local strict = parts(3) ~= nil
     local transferred = sc.pull(item, quantity, strict, kiosk_storage, nil)
     if transferred > 0 then

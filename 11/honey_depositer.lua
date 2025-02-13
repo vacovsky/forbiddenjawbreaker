@@ -12,7 +12,7 @@ function DepositFluids()
         fluidPushed = fluidPushed + peripheral.wrap(fluid_source).pushFluid(fluid_dest)
     end
 
-    print('xfer', fluidPushed, 'mb from ender tank')
+    if fluidPushed > 0 then print('xfer', fluidPushed, 'mb from ender tank') end
 end
 
 while true do

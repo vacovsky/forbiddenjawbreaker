@@ -1,4 +1,4 @@
-local DROPBOX = 'sophisticatedstorage:barrel_1'
+local DROPBOX = 'sophisticatedstorage:barrel_0'
 
 local whi = require 'lib/whi'
 local var = require 'lib/constants'
@@ -17,5 +17,5 @@ print('Starting automated warehouse return system...')
 while true do
     -- if not pcall(ReturnWares) then print('ReturnWares() failed to complete') end
     ReturnWares()
-    sleep(120)
+    sleep(1800)
 end

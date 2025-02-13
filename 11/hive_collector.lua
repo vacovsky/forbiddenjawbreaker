@@ -2,10 +2,10 @@ local json = require "lib/json"
 local vars = require "lib/constants"
 local whi = require "lib/whi"
 local net = require "lib/network"
--- local sc = require "lib/sc"
+local sc = require "lib/sc"
 
 -- local combs_source = 'enderstorage:ender_chest_5'
-local combs_dest = 'enderstorage:ender_chest_5'
+local combs_dest = 'enderstorage:ender_chest_8'
 -- local combs_dest = 'sophisticatedstorage:chest_2'
 -- local combs_dest = 'pneumaticcraft:reinforced_chest_1'
 
@@ -31,8 +31,8 @@ function CollectFromHives()
                 string.find(item.name, 'comb') and not string.find(item.name, 'sugarbag') then
                 combsMoved = combsMoved + pcombdest.pullItems(hive, slot)
             else
-                -- combsMoved = combsMoved + sc.push(hive, slot)
-                combsMoved = combsMoved + whi.DepositInAnyWarehouse(hive, slot)
+                combsMoved = combsMoved + sc.push(hive, slot)
+                -- combsMoved = combsMoved + whi.DepositInAnyWarehouse(hive, slot)
             end
             ::skip::
         end

@@ -7,7 +7,7 @@ local honey_destination = 'fluidTank_16'
 while true do
     local honeyPushed = 0
     honeyPushed = honeyPushed + peripheral.wrap(honey_source).pushFluid(honey_destination)
-    print('Tranferred', honeyPushed, 'honey from ender tank')
+    if honeyPushed > 0 then print('Tranferred', honeyPushed, 'honey from ender tank') end
     sleep(5)
     honeyPushed = 0
 end

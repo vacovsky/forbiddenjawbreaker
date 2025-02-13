@@ -79,6 +79,7 @@ function sc.pull(itemName, quantity, strict, destStorageName, destSlot)
         end
     end
     logRequestTime("sc.pull", os.epoch('utc') - req_start)
+    sleep(1)
     return tot_transferred
 end
 
@@ -98,7 +99,7 @@ function sc.push(srcStorageName, srcSlot)
         end
         if src_storage.list()[srcSlot] == nil then 
             logRequestTime("sc.pull", os.epoch('utc') - req_start)
-            return tot_transferred 
+            return tot_transferred
         end
     end
     logRequestTime("sc.push", os.epoch('utc') - req_start)

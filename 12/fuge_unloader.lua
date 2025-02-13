@@ -22,7 +22,7 @@ function UnloadFuges()
         end
         pfluiddest.pullFluid(fuge)
     end
-    print('xfer', items, 'items')
+    if items > 0 then print('xfer', items, 'items') end
 end
 
 while true do
