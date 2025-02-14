@@ -1,0 +1,2476 @@
+{
+ 1 = {
+  state = "IN_PROGRESS",
+  target = "Builder Azariah A. Cushing",
+  name = "1-4 Lava Bucket",
+  count = 4,
+  id = "eb2aeb23-bc04-47b3-9261-373ad8c8e2ed",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:buckets",
+     2 = "minecraft:item/forge:buckets/lava",
+    },
+    name = "minecraft:lava_bucket",
+    maxStackSize = 1,
+    fingerprint = "3C05581CD47F9E10732E7DE871D538A5",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Lava Bucket]",
+   },
+  },
+  minCount = 1,
+  desc = "1-4 Lava Bucket",
+ },
+ 2 = {
+  state = "IN_PROGRESS",
+  target = "Restaurant",
+  name = "16 Golden Carrot",
+  count = 16,
+  id = "999185d2-595d-4897-8faf-bdd7218809da",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/incendium:iron_stackable",
+     2 = "minecraft:item/roamers:treasure_items",
+     3 = "minecraft:item/roamers:edible_items",
+     4 = "minecraft:item/roamers:food_items",
+     5 = "minecraft:item/minecraft:piglin_loved",
+     6 = "minecraft:item/incendium:brewing_ingredients",
+     7 = "minecraft:item/incendium:gold_stackable",
+    },
+    name = "minecraft:golden_carrot",
+    maxStackSize = 64,
+    fingerprint = "DFB211930FB7350D20DFAC885FABE606",
+    count = 16,
+    nbt = {
+    },
+    displayName = "[Golden Carrot]",
+   },
+  },
+  minCount = 16,
+  desc = "16 Golden Carrot",
+ },
+ 3 = {
+  state = "IN_PROGRESS",
+  target = "Restaurant",
+  name = "16 Apple",
+  count = 16,
+  id = "378bf07e-4480-4ceb-ab56-b0fef18570f0",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:fruits/sweet",
+     2 = "minecraft:item/forge:fruits/apple",
+     3 = "minecraft:item/forge:fruits",
+     4 = "minecraft:item/roamers:edible_items",
+     5 = "minecraft:item/forge:fruits/apples",
+     6 = "minecraft:item/createaddition:plant_foods",
+     7 = "minecraft:item/biomancy:sugars",
+     8 = "minecraft:item/roamers:food_items",
+     9 = "minecraft:item/scguns:normal_compost",
+    },
+    name = "minecraft:apple",
+    maxStackSize = 64,
+    fingerprint = "56587A2425F45CED70EB217533AC576A",
+    count = 16,
+    nbt = {
+    },
+    displayName = "[Apple]",
+   },
+  },
+  minCount = 16,
+  desc = "16 Apple",
+ },
+ 4 = {
+  state = "IN_PROGRESS",
+  target = "Builder Azariah A. Cushing",
+  name = "1-10 Stone Brick Wall",
+  count = 10,
+  id = "ea258a75-9d1d-4270-8c22-acdbd5aaf7ad",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/minecraft:walls",
+     2 = "minecraft:item/minecolonies:stonesmeltery_ingredient",
+     3 = "minecraft:item/minecolonies:stonemason_ingredient",
+     4 = "minecraft:item/minecolonies:blacksmith_product_excluded",
+     5 = "minecraft:item/minecolonies:stonemason_product",
+    },
+    name = "minecraft:stone_brick_wall",
+    maxStackSize = 64,
+    fingerprint = "6CCC53669C6798AF9DE1B6396D07A7FC",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Stone Brick Wall]",
+   },
+  },
+  minCount = 1,
+  desc = "1-10 Stone Brick Wall",
+ },
+ 5 = {
+  state = "IN_PROGRESS",
+  target = "Cook Jade T. Cheverell",
+  name = "Fuel",
+  count = 64,
+  id = "6269a572-e2a1-4320-b4c3-b7f40cb10ada",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:buckets",
+     2 = "minecraft:item/forge:buckets/lava",
+    },
+    name = "minecraft:lava_bucket",
+    maxStackSize = 1,
+    fingerprint = "3C05581CD47F9E10732E7DE871D538A5",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Lava Bucket]",
+   },
+  },
+  minCount = 1,
+  desc = "Fuel",
+ },
+ 6 = {
+  state = "IN_PROGRESS",
+  target = "Farmer Thiago T. Crugg",
+  name = "1-64 Diamond Seeds",
+  count = 64,
+  id = "142a85fa-3523-4f26-a165-6e62fee6821c",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/mysticalagriculture:seeds",
+     2 = "minecraft:item/quark:seed_pouch_holdable",
+     3 = "minecraft:item/minecolonies:farmer_product",
+     4 = "minecraft:item/naturalist:bird_food_items",
+     5 = "minecraft:item/minecolonies:compostables_poor",
+     6 = "minecraft:item/ars_nouveau:whirlisprig/denied_drop",
+     7 = "minecraft:item/forge:seeds",
+    },
+    name = "mysticalagriculture:diamond_seeds",
+    maxStackSize = 64,
+    fingerprint = "B64B581A3D94B77175236F8DF5A5975D",
+    count = 64,
+    nbt = {
+    },
+    displayName = "[Diamond Seeds]",
+   },
+  },
+  minCount = 1,
+  desc = "1-64 Diamond Seeds",
+ },
+ 7 = {
+  state = "IN_PROGRESS",
+  target = "Blacksmith",
+  name = "7 Iron Ingot",
+  count = 7,
+  id = "c2adf3c1-f960-4b45-a6eb-9bdde6151d82",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/scguns:standard_bullet_material",
+     2 = "minecraft:item/minecraft:beacon_payment_items",
+     3 = "minecraft:item/minecolonies:blacksmith_ingredient",
+     4 = "minecraft:item/minecraft:trim_materials",
+     5 = "minecraft:item/balm:iron_ingots",
+     6 = "minecraft:item/forge:ingots/iron",
+     7 = "minecraft:item/alexscaves:ferromagnetic_items",
+     8 = "minecraft:item/minecolonies:reduceable_ingredient",
+     9 = "minecraft:item/forge:ingots",
+     10 = "minecraft:item/minecolonies:blacksmith_product",
+     11 = "minecraft:item/balm:ingots",
+     12 = "minecraft:item/irons_spellbooks:arcane_ingot_base",
+     13 = "minecraft:item/minecolonies:reduceable_product_excluded",
+     14 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     15 = "minecraft:item/minecolonies:sawmill_ingredient_excluded",
+     16 = "minecraft:item/roamers:treasure_items",
+    },
+    name = "minecraft:iron_ingot",
+    maxStackSize = 64,
+    fingerprint = "D56B971D978149D8689911F264A55A7C",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Iron Ingot]",
+   },
+  },
+  minCount = 7,
+  desc = "7 Iron Ingot",
+ },
+ 8 = {
+  state = "IN_PROGRESS",
+  target = "Farmer Thiago T. Crugg",
+  name = "Fertilizer",
+  count = 64,
+  id = "57f972f1-37a2-45d4-82f7-c4f15418d049",
+  items = {
+   1 = {
+    tags = {
+    },
+    name = "minecolonies:compost",
+    maxStackSize = 64,
+    fingerprint = "B435788CCC9A04C5E5F8D1CFEE0CAA89",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Compost]",
+   },
+   2 = {
+    tags = {
+     1 = "minecraft:item/quark:seed_pouch_fertilizers",
+     2 = "minecraft:item/scguns:compost_drops",
+     3 = "minecraft:item/dynamictrees:fertilizer",
+     4 = "minecraft:item/enemyexpansion:starved_stomach",
+    },
+    name = "minecraft:bone_meal",
+    maxStackSize = 64,
+    fingerprint = "34A6BADAD4DB36E4701DD8990466204A",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Bone Meal]",
+   },
+  },
+  minCount = 1,
+  desc = "Fertilizer",
+ },
+ 9 = {
+  state = "IN_PROGRESS",
+  target = "Knight Sterling G. Asplin",
+  name = "Boots",
+  count = 1,
+  id = "7218f126-a631-480e-900c-750409676b04",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:armors",
+     2 = "minecraft:item/forge:armor",
+     3 = "minecraft:item/incendium:armor",
+     4 = "minecraft:item/bookshelf:armor",
+     5 = "minecraft:item/minecraft:trimmable_armor",
+     6 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     7 = "minecraft:item/supplementaries:ignite_flint_blocks",
+     8 = "minecraft:item/forge:boots",
+     9 = "minecraft:item/forge:armors/boots",
+     10 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     11 = "minecraft:item/incendium:tools_armor",
+     12 = "minecraft:item/bookshelf:boots",
+     13 = "minecraft:item/alexscaves:ferromagnetic_items",
+    },
+    name = "minecraft:chainmail_boots",
+    maxStackSize = 1,
+    fingerprint = "E2FDC43CAD61E1D90CB2474B153A3D74",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Chainmail Boots]",
+   },
+   2 = {
+    tags = {
+     1 = "minecraft:item/forge:armors/boots",
+     2 = "minecraft:item/minecraft:trimmable_armor",
+     3 = "minecraft:item/minecraft:freeze_immune_wearables",
+     4 = "minecraft:item/forge:boots",
+     5 = "minecraft:item/bookshelf:boots",
+     6 = "minecraft:item/forge:armors",
+     7 = "minecraft:item/create_new_age:nuclear/hazmat_suit",
+     8 = "minecraft:item/forge:armor",
+     9 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     10 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:leather_boots",
+    maxStackSize = 1,
+    fingerprint = "F4A57313371E2FCDD5BFFCD9C8CDF3D3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Leather Boots]",
+   },
+   3 = {
+    tags = {
+     1 = "minecraft:item/forge:armors/boots",
+     2 = "minecraft:item/bookshelf:boots",
+     3 = "minecraft:item/forge:armor",
+     4 = "minecraft:item/forge:armors",
+     5 = "minecraft:item/minecraft:piglin_loved",
+     6 = "minecraft:item/forge:boots",
+     7 = "minecraft:item/incendium:gold_unstackable",
+     8 = "minecraft:item/minecraft:trimmable_armor",
+     9 = "minecraft:item/incendium:tools_armor",
+     10 = "minecraft:item/roamers:treasure_items",
+     11 = "minecraft:item/forge:armor/gold",
+     12 = "minecraft:item/bookshelf:armor",
+     13 = "minecraft:item/incendium:armor",
+     14 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "minecraft:golden_boots",
+    maxStackSize = 1,
+    fingerprint = "1C95E82EBC898910E325A396FBB3DA35",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Golden Boots]",
+   },
+   4 = {
+    tags = {
+     1 = "minecraft:item/minecraft:freeze_immune_wearables",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     4 = "minecraft:item/forge:armors/boots",
+    },
+    name = "roamers:wool_boots",
+    maxStackSize = 1,
+    fingerprint = "17908DC6202EAA1931CD74E8CA9AFB6D",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Wool Boots]",
+   },
+   5 = {
+    tags = {
+    },
+    name = "cold_sweat:goat_fur_boots",
+    maxStackSize = 1,
+    fingerprint = "9AADE6D8ACA26B7A7680CFB271B63D27",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Goat Fur Boots]",
+   },
+   6 = {
+    tags = {
+     1 = "minecraft:item/ars_nouveau:boot",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     4 = "minecraft:item/forge:armors/boots",
+    },
+    name = "ars_nouveau:sorcerer_boots",
+    maxStackSize = 1,
+    fingerprint = "5F78EEE20F5886113764E903F1994FBD",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Sorceror's Footpads]",
+   },
+   7 = {
+    tags = {
+    },
+    name = "extraarmor:spruce_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "0332D0549EB9B18CCFA7EBD54C142367",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Spruce Wood Boots]",
+   },
+   8 = {
+    tags = {
+    },
+    name = "extraarmor:glass_boots",
+    maxStackSize = 1,
+    fingerprint = "6D84DC5F7F4E47B13A74B72E5F75825D",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glass Boots]",
+   },
+   9 = {
+    tags = {
+    },
+    name = "extraarmor:oak_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "E035CBBE7B0834B47DDC9679A215BCE9",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Oak Wood Boots]",
+   },
+   10 = {
+    tags = {
+    },
+    name = "extraarmor:dark_oak_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "D24B202EA28C0EA78F6B84F8C5C9E26F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Dark Oak Wood Boots]",
+   },
+   11 = {
+    tags = {
+    },
+    name = "extraarmor:mangrove_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "D1AFFD934298DF3E61394C208364A846",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Mangrove Wood Boots]",
+   },
+   12 = {
+    tags = {
+    },
+    name = "extraarmor:glowstone_boots",
+    maxStackSize = 1,
+    fingerprint = "565507394E0F13AA965ACD1CF30D2EC5",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glowstone Boots]",
+   },
+   13 = {
+    tags = {
+    },
+    name = "extraarmor:pumpkin_boots",
+    maxStackSize = 1,
+    fingerprint = "1280C54B86244B0E889A25E0EBD1D9E7",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Pumpkin Boots]",
+   },
+   14 = {
+    tags = {
+    },
+    name = "extraarmor:honeycomb_boots",
+    maxStackSize = 1,
+    fingerprint = "AA6F7E767089DA32D0D195FA1B33E18F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Honeycomb Boots]",
+   },
+   15 = {
+    tags = {
+    },
+    name = "extraarmor:lapis_boots",
+    maxStackSize = 1,
+    fingerprint = "16DA2A07A90382E21DE8D7F9B2FA5291",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Lapis Boots]",
+   },
+   16 = {
+    tags = {
+    },
+    name = "extraarmor:magma_boots",
+    maxStackSize = 1,
+    fingerprint = "2F7FBC90CBE1EE9D1E52267661FFE703",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Magma Boots]",
+   },
+   17 = {
+    tags = {
+    },
+    name = "extraarmor:snow_boots",
+    maxStackSize = 1,
+    fingerprint = "7AA39F07077729D249716AEB25525ABA",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Snow Boots]",
+   },
+   18 = {
+    tags = {
+    },
+    name = "extraarmor:warped_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "93CDBD258F1B456BB23D5AF1AFB47BCF",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Warped Wood Boots]",
+   },
+   19 = {
+    tags = {
+    },
+    name = "extraarmor:crimson_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "19E0067732ADCF190E5EFAEB19CEE5E5",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Crimson Wood Boots]",
+   },
+   20 = {
+    tags = {
+    },
+    name = "extraarmor:ice_boots",
+    maxStackSize = 1,
+    fingerprint = "92EBC3F034D7170FEFD47FEC34F85A31",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Ice Boots]",
+   },
+   21 = {
+    tags = {
+    },
+    name = "extraarmor:quartz_boots",
+    maxStackSize = 1,
+    fingerprint = "F8B1D5ADF8D60E4A6B390E85BF2061FF",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Quartz Boots]",
+   },
+   22 = {
+    tags = {
+    },
+    name = "extraarmor:acacia_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "CCFDFB40CD4093FA22D79BC6BE9B65A4",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Acacia Wood Boots]",
+   },
+   23 = {
+    tags = {
+    },
+    name = "extraarmor:birch_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "4A579F6CD4F94A956768246E15D41CDA",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Birch Wood Boots]",
+   },
+   24 = {
+    tags = {
+    },
+    name = "extraarmor:emerald_boots",
+    maxStackSize = 1,
+    fingerprint = "B2DD1C37E1239F4690D5856C89528F3B",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Emerald Boots]",
+   },
+   25 = {
+    tags = {
+    },
+    name = "extraarmor:melon_boots",
+    maxStackSize = 1,
+    fingerprint = "2D528E661253CA5C1B601F7C9B60E472",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Melon Boots]",
+   },
+   26 = {
+    tags = {
+    },
+    name = "extraarmor:jungle_wood_boots",
+    maxStackSize = 1,
+    fingerprint = "E6FE5776F61DEE9E3F4EBFDA2364A862",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Jungle Wood Boots]",
+   },
+   27 = {
+    tags = {
+    },
+    name = "extraarmor:cactus_boots",
+    maxStackSize = 1,
+    fingerprint = "E61364E7330B8D903855CEA4CEF71857",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Cactus Boots]",
+   },
+   28 = {
+    tags = {
+    },
+    name = "extraarmor:feather_boots",
+    maxStackSize = 1,
+    fingerprint = "2F01DBBBB7775DEC7D81454E4F181291",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Feather Boots]",
+   },
+   29 = {
+    tags = {
+     1 = "minecraft:item/forge:armors/boots",
+     2 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     3 = "minecraft:item/forge:armors",
+    },
+    name = "create:copper_diving_boots",
+    maxStackSize = 1,
+    fingerprint = "D646FDD5B070C8A8219FE4244057D604",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Copper Diving Boots]",
+   },
+   30 = {
+    tags = {
+    },
+    name = "alexscaves:rainbounce_boots",
+    maxStackSize = 1,
+    fingerprint = "55AE359FC34841C34EBF41452FA97E2A",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Rainbounce Boots]",
+   },
+  },
+  minCount = 1,
+  desc = "Boots with minimal level: Leather and with maximal level: Chain",
+ },
+ 10 = {
+  state = "IN_PROGRESS",
+  target = "Stonemason",
+  name = "20 Andesite",
+  count = 20,
+  id = "c0717756-69eb-49dc-8904-edb43d34bcd8",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/balm:stones",
+     2 = "minecraft:item/minecolonies:reduceable_product_excluded",
+     3 = "minecraft:item/forge:stone",
+     4 = "minecraft:item/minecolonies:stonemason_product",
+     5 = "minecraft:item/productivebees:flowers/quarry",
+     6 = "minecraft:item/quark:stone_tool_materials",
+     7 = "minecraft:item/scguns:rocks",
+     8 = "minecraft:item/bookshelf:stones",
+     9 = "minecraft:item/minecolonies:reduceable_ingredient",
+     10 = "minecraft:item/minecolonies:stonesmeltery_product",
+     11 = "minecraft:item/minecolonies:stonesmeltery_ingredient",
+     12 = "minecraft:item/minecolonies:stonemason_ingredient",
+     13 = "minecraft:item/minecolonies:blacksmith_product_excluded",
+     14 = "minecraft:item/minecolonies:sawmill_ingredient_excluded",
+     15 = "minecraft:item/create:stone_types/andesite",
+    },
+    name = "minecraft:andesite",
+    maxStackSize = 64,
+    fingerprint = "8A18571D096CFFDE79F9316C9D4EFF53",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Andesite]",
+   },
+  },
+  minCount = 20,
+  desc = "20 Andesite",
+ },
+ 11 = {
+  state = "IN_PROGRESS",
+  target = "Builder Azariah A. Cushing",
+  name = "1-54 Deepslate Tile Slab",
+  count = 54,
+  id = "776eaa1c-aa57-4f05-9605-31b098c17a9a",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/minecolonies:stonesmeltery_ingredient",
+     2 = "minecraft:item/minecolonies:stonemason_ingredient",
+     3 = "minecraft:item/minecolonies:blacksmith_product_excluded",
+     4 = "minecraft:item/minecraft:slabs",
+     5 = "minecraft:item/minecolonies:stonemason_product",
+    },
+    name = "minecraft:deepslate_tile_slab",
+    maxStackSize = 64,
+    fingerprint = "C4D561A1738D0D3866B67C62503632D5",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Deepslate Tile Slab]",
+   },
+  },
+  minCount = 1,
+  desc = "1-54 Deepslate Tile Slab",
+ },
+ 12 = {
+  state = "IN_PROGRESS",
+  target = "Builder Azariah A. Cushing",
+  name = "1 Block of Raw Iron",
+  count = 1,
+  id = "e0879390-bbe8-41fb-a3c4-c8bc0144e037",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/alexscaves:ferromagnetic_items",
+     2 = "minecraft:item/minecolonies:blacksmith_product_excluded",
+     3 = "minecraft:item/minecolonies:mechanic_product",
+     4 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     5 = "minecraft:item/minecolonies:sawmill_product_excluded",
+     6 = "minecraft:item/minecolonies:stonemason_ingredient_excluded",
+     7 = "minecraft:item/minecolonies:storage_blocks",
+     8 = "minecraft:item/forge:storage_blocks",
+     9 = "minecraft:item/minecolonies:stonemason_product_excluded",
+     10 = "minecraft:item/minecolonies:blacksmith_ingredient_excluded",
+     11 = "minecraft:item/roamers:treasure_items",
+     12 = "minecraft:item/minecolonies:mechanic_ingredient",
+     13 = "minecraft:item/forge:storage_blocks/raw_iron",
+     14 = "minecraft:item/minecolonies:reduceable_product_excluded",
+    },
+    name = "minecraft:raw_iron_block",
+    maxStackSize = 64,
+    fingerprint = "43E2480B64A1C6D0F8E6BA1BC151EC95",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Block of Raw Iron]",
+   },
+  },
+  minCount = 1,
+  desc = "1 Block of Raw Iron",
+ },
+ 13 = {
+  state = "IN_PROGRESS",
+  target = "Knight Sterling G. Asplin",
+  name = "Helmet",
+  count = 1,
+  id = "46492453-2c85-409b-8971-8350dc59dccc",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+    },
+    name = "quark:forgotten_hat",
+    maxStackSize = 1,
+    fingerprint = "F02C9D60E8027F974BCE805996BD2B3A",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Forgotten Hat]",
+   },
+   2 = {
+    tags = {
+     1 = "minecraft:item/minecraft:trimmable_armor",
+     2 = "minecraft:item/minecraft:freeze_immune_wearables",
+     3 = "minecraft:item/forge:helmets",
+     4 = "minecraft:item/forge:armors/helmets",
+     5 = "minecraft:item/forge:armors",
+     6 = "minecraft:item/bookshelf:helmets",
+     7 = "minecraft:item/create_new_age:nuclear/hazmat_suit",
+     8 = "minecraft:item/forge:armor",
+     9 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     10 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:leather_helmet",
+    maxStackSize = 1,
+    fingerprint = "D4D9D4311282BE5B7D1114CEC5F899D2",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Leather Cap]",
+   },
+   3 = {
+    tags = {
+     1 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/bookshelf:helmets",
+     5 = "minecraft:item/incendium:tools_armor",
+     6 = "minecraft:item/forge:armor",
+     7 = "minecraft:item/alexscaves:ferromagnetic_items",
+     8 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     9 = "minecraft:item/forge:helmets",
+     10 = "minecraft:item/minecraft:trimmable_armor",
+     11 = "minecraft:item/incendium:armor",
+     12 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:chainmail_helmet",
+    maxStackSize = 1,
+    fingerprint = "CC00152C20CFF6FC0650518A5EA48CF3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Chainmail Helmet]",
+   },
+   4 = {
+    tags = {
+    },
+    name = "conjurer_illager:conjurer_hat",
+    maxStackSize = 1,
+    fingerprint = "7FFD47442A3DC0A39BDF3233796ADCCD",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Conjurer Hat]",
+   },
+   5 = {
+    tags = {
+     1 = "minecraft:item/forge:armor",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/forge:helmets",
+     4 = "minecraft:item/minecraft:piglin_loved",
+     5 = "minecraft:item/incendium:gold_unstackable",
+     6 = "minecraft:item/minecraft:trimmable_armor",
+     7 = "minecraft:item/incendium:tools_armor",
+     8 = "minecraft:item/forge:armors/helmets",
+     9 = "minecraft:item/roamers:treasure_items",
+     10 = "minecraft:item/forge:armor/gold",
+     11 = "minecraft:item/bookshelf:armor",
+     12 = "minecraft:item/incendium:armor",
+     13 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     14 = "minecraft:item/bookshelf:helmets",
+    },
+    name = "minecraft:golden_helmet",
+    maxStackSize = 1,
+    fingerprint = "ECF7CC2AE2F5567B4CC656E78D881C4E",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Golden Helmet]",
+   },
+   6 = {
+    tags = {
+    },
+    name = "minecraft:shulker_shell",
+    maxStackSize = 64,
+    fingerprint = "0084D7B5A9047B658F0FED49482E20FD",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Shulker Shell]",
+   },
+   7 = {
+    tags = {
+    },
+    name = "scguns:ridgetop",
+    maxStackSize = 1,
+    fingerprint = "8F97EC621773310135DE8B89D0AB3DA0",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Ridgetop]",
+   },
+   8 = {
+    tags = {
+     1 = "minecraft:item/minecraft:freeze_immune_wearables",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "roamers:wool_helmet",
+    maxStackSize = 1,
+    fingerprint = "A18156688C72BF855809941536DF1AF7",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Wool Hood]",
+   },
+   9 = {
+    tags = {
+    },
+    name = "cold_sweat:goat_fur_cap",
+    maxStackSize = 1,
+    fingerprint = "D0A7F1EBB869DB1437DB12BB176CBD28",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Goat Fur Cap]",
+   },
+   10 = {
+    tags = {
+     1 = "minecraft:item/ars_nouveau:hood",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "ars_nouveau:sorcerer_hood",
+    maxStackSize = 1,
+    fingerprint = "25E9689DC7D7D5577A9B788B25953F13",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Sorceror's Collar]",
+   },
+   11 = {
+    tags = {
+    },
+    name = "extraarmor:melon_helmet",
+    maxStackSize = 1,
+    fingerprint = "82DCD504057B17FB169A3A857A78C170",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Melon Helmet]",
+   },
+   12 = {
+    tags = {
+    },
+    name = "extraarmor:glass_helmet",
+    maxStackSize = 1,
+    fingerprint = "2B1E9A66404D65FFC22AAEE47D6CAC5F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glass Helmet]",
+   },
+   13 = {
+    tags = {
+    },
+    name = "extraarmor:oak_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "3C955C9379C82DFB9BB94F38E02E6CD5",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Oak Wood Helmet]",
+   },
+   14 = {
+    tags = {
+    },
+    name = "extraarmor:lapis_helmet",
+    maxStackSize = 1,
+    fingerprint = "E9972ABC367F3FDC9DCD334635BD9595",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Lapis Helmet]",
+   },
+   15 = {
+    tags = {
+    },
+    name = "extraarmor:magma_helmet",
+    maxStackSize = 1,
+    fingerprint = "924B741994D25B0D24B9D0F2BA147A5E",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Magma Helmet]",
+   },
+   16 = {
+    tags = {
+    },
+    name = "extraarmor:quartz_helmet",
+    maxStackSize = 1,
+    fingerprint = "B5C1AFCA0AD90F78C9283FB31EEB0475",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Quartz Helmet]",
+   },
+   17 = {
+    tags = {
+    },
+    name = "extraarmor:pumpkin_helmet",
+    maxStackSize = 1,
+    fingerprint = "AF2A6F322CABF64537C7CB53743144B3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Pumpkin Helmet]",
+   },
+   18 = {
+    tags = {
+    },
+    name = "extraarmor:warped_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "28411EC04C9111EE68F2B8B9539035A8",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Warped Wood Helmet]",
+   },
+   19 = {
+    tags = {
+    },
+    name = "extraarmor:birch_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "75CDE7AF08661365F3371EC96E3707B7",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Birch Wood Helmet]",
+   },
+   20 = {
+    tags = {
+    },
+    name = "extraarmor:jungle_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "7BF1735326376E4868020E8E2177B4E9",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Jungle Wood Helmet]",
+   },
+   21 = {
+    tags = {
+    },
+    name = "extraarmor:snow_helmet",
+    maxStackSize = 1,
+    fingerprint = "D45DA719AB2435F5AF997A9279FCCC00",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Snow Helmet]",
+   },
+   22 = {
+    tags = {
+    },
+    name = "extraarmor:dark_oak_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "260B91BC0C22B9A5F08864E2742CCA99",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Dark Oak Wood Helmet]",
+   },
+   23 = {
+    tags = {
+    },
+    name = "extraarmor:crimson_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "3D5DED9F0CD014B6E27B326B586565BD",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Crimson Wood Helmet]",
+   },
+   24 = {
+    tags = {
+    },
+    name = "extraarmor:emerald_helmet",
+    maxStackSize = 1,
+    fingerprint = "D91D1DD4D5564D26E7D765A4B5291671",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Emerald Helmet]",
+   },
+   25 = {
+    tags = {
+    },
+    name = "extraarmor:cactus_helmet",
+    maxStackSize = 1,
+    fingerprint = "5DCEC4B809B7BD1443644F8468850F68",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Cactus Helmet]",
+   },
+   26 = {
+    tags = {
+    },
+    name = "extraarmor:glowstone_helmet",
+    maxStackSize = 1,
+    fingerprint = "D0C4413B929E0B2C414826F85C484768",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glowstone Helmet]",
+   },
+   27 = {
+    tags = {
+    },
+    name = "extraarmor:mangrove_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "7B8EF762A616BED512C9B55EA4AC0AE9",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Mangrove Wood Helmet]",
+   },
+   28 = {
+    tags = {
+    },
+    name = "extraarmor:honeycomb_helmet",
+    maxStackSize = 1,
+    fingerprint = "0A33C347D3E7B358EA90320710FF69BE",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Honeycomb Helmet]",
+   },
+   29 = {
+    tags = {
+    },
+    name = "extraarmor:spruce_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "F1C34786D12F0E16347BB6F477C77CEC",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Spruce Wood Helmet]",
+   },
+   30 = {
+    tags = {
+    },
+    name = "extraarmor:acacia_wood_helmet",
+    maxStackSize = 1,
+    fingerprint = "79EF6B8395FEC4D2E54DEF6645E39C1C",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Acacia Wood Helmet]",
+   },
+   31 = {
+    tags = {
+    },
+    name = "extraarmor:ice_helmet",
+    maxStackSize = 1,
+    fingerprint = "D1A58EB4BE1AC29EC4D83DC89D1CF02B",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Ice Helmet]",
+   },
+   32 = {
+    tags = {
+    },
+    name = "extraarmor:feather_helmet",
+    maxStackSize = 1,
+    fingerprint = "B7FB95034F442DCABD5E85E868AFFFD7",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Feather Helmet]",
+   },
+   33 = {
+    tags = {
+     1 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+    },
+    name = "create:copper_diving_helmet",
+    maxStackSize = 1,
+    fingerprint = "DD2ACEB216992AA19A20476E951B9762",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Copper Diving Helmet]",
+   },
+   34 = {
+    tags = {
+     1 = "minecraft:item/forge:armor/helmets",
+    },
+    name = "alexscaves:primordial_helmet",
+    maxStackSize = 1,
+    fingerprint = "7923D3E0D718206E9306654C9AD336FD",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Primordial Helmet]",
+   },
+   35 = {
+    tags = {
+     1 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     2 = "minecraft:item/forge:armors/helmets",
+     3 = "minecraft:item/forge:armors",
+    },
+    name = "irons_spellbooks:tarnished_helmet",
+    maxStackSize = 1,
+    fingerprint = "04012F65D32FEA1AF3DDA4CDAC330313",
+    count = 1,
+    nbt = {
+     ISB_Spells = {
+      spellWheel = 1,
+      maxSpells = 1,
+      data = {
+      },
+      mustEquip = 1,
+     },
+     Damage = 0,
+    },
+    displayName = "[Tarnished Crown]",
+   },
+   36 = {
+    tags = {
+     1 = "minecraft:item/curios:head",
+     2 = "minecraft:item/ars_elemental:curio_bag_item",
+    },
+    name = "minecolonies:build_goggles",
+    maxStackSize = 1,
+    fingerprint = "3AAF3E28042FC92E7A8067164EF3B3D7",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Builder's Goggles]",
+   },
+   37 = {
+    tags = {
+    },
+    name = "minecolonies:santa_hat",
+    maxStackSize = 1,
+    fingerprint = "635E6867AE02DF56CB4B26ADE32E5C2E",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Santa Hat]",
+   },
+  },
+  minCount = 1,
+  desc = "Helmet with minimal level: Leather and with maximal level: Chain",
+ },
+ 14 = {
+  state = "IN_PROGRESS",
+  target = "Knight Sterling G. Asplin",
+  name = "Chestplate",
+  count = 1,
+  id = "14343f6b-0476-44f9-bfa1-526445fd44f9",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:chestplates",
+     2 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/incendium:tools_armor",
+     5 = "minecraft:item/forge:armor",
+     6 = "minecraft:item/alexscaves:ferromagnetic_items",
+     7 = "minecraft:item/bookshelf:chestplates",
+     8 = "minecraft:item/forge:armors/chestplates",
+     9 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     10 = "minecraft:item/minecraft:trimmable_armor",
+     11 = "minecraft:item/incendium:armor",
+     12 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:chainmail_chestplate",
+    maxStackSize = 1,
+    fingerprint = "0ADB5A0F493F3FACBCAA26A5C4EA241C",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Chainmail Chestplate]",
+   },
+   2 = {
+    tags = {
+     1 = "minecraft:item/forge:armor",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/forge:chestplates",
+     4 = "minecraft:item/minecraft:piglin_loved",
+     5 = "minecraft:item/incendium:gold_unstackable",
+     6 = "minecraft:item/minecraft:trimmable_armor",
+     7 = "minecraft:item/incendium:tools_armor",
+     8 = "minecraft:item/roamers:treasure_items",
+     9 = "minecraft:item/forge:armor/gold",
+     10 = "minecraft:item/bookshelf:armor",
+     11 = "minecraft:item/incendium:armor",
+     12 = "minecraft:item/forge:armors/chestplates",
+     13 = "minecraft:item/bookshelf:chestplates",
+     14 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "minecraft:golden_chestplate",
+    maxStackSize = 1,
+    fingerprint = "E969C47F2E35EC0378D7D0D55EE412C4",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Golden Chestplate]",
+   },
+   3 = {
+    tags = {
+     1 = "minecraft:item/forge:chestplates",
+     2 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     3 = "minecraft:item/bookshelf:chestplates",
+     4 = "minecraft:item/minecraft:freeze_immune_wearables",
+     5 = "minecraft:item/minecraft:trimmable_armor",
+     6 = "minecraft:item/forge:armors",
+     7 = "minecraft:item/create_new_age:nuclear/hazmat_suit",
+     8 = "minecraft:item/forge:armor",
+     9 = "minecraft:item/forge:armors/chestplates",
+     10 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:leather_chestplate",
+    maxStackSize = 1,
+    fingerprint = "3F6FCE9D2F1D6203B373DB5586BFD3D3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Leather Tunic]",
+   },
+   4 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "CA2067335D51F3B639330A7BD5BC20B9",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:diamond",
+    },
+    displayName = "[Diamond Jetpack]",
+   },
+   5 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "42155CD5BE9E8BE1F93ED164BD626635",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:steel",
+    },
+    displayName = "[Steel Jetpack]",
+   },
+   6 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "35091B01E41E06AAFF39A91433C4A876",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:silver",
+    },
+    displayName = "[Silver Jetpack]",
+   },
+   7 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "A5107EFC9CCF2C714346514D04AAEB16",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:stone",
+    },
+    displayName = "[Stone Jetpack]",
+   },
+   8 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "AA60F07CE795C1EC87506E82907F6641",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:invar",
+    },
+    displayName = "[Invar Jetpack]",
+   },
+   9 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "40AABD01AD15FF291149240C71413EA0",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:emerald",
+    },
+    displayName = "[Emerald Jetpack]",
+   },
+   10 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "69D2E43248039E93FA924B14A53950AC",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:creative",
+    },
+    displayName = "[Creative Jetpack]",
+   },
+   11 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "42C09667B697883E08799D2CBBE5AEFD",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:electrum",
+    },
+    displayName = "[Electrum Jetpack]",
+   },
+   12 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "653D9337DB9C2DA445F3EA457A921A7C",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:platinum",
+    },
+    displayName = "[Platinum Jetpack]",
+   },
+   13 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "6FEE30808886D3FAE39C350367B69469",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:iron",
+    },
+    displayName = "[Iron Jetpack]",
+   },
+   14 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "604A0F73B0A252F0F94898E891AE25D8",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:gold",
+    },
+    displayName = "[Gold Jetpack]",
+   },
+   15 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "9C25B3BFB58E33325D8C81B06AFE5217",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:bronze",
+    },
+    displayName = "[Bronze Jetpack]",
+   },
+   16 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "52464A9D4CF36F3F95DF3995FB7648B2",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:wood",
+    },
+    displayName = "[Wood Jetpack]",
+   },
+   17 = {
+    tags = {
+     1 = "minecraft:item/ars_elemental:curio_bag_item",
+     2 = "minecraft:item/curios:body",
+    },
+    name = "ironjetpacks:jetpack",
+    maxStackSize = 1,
+    fingerprint = "822751F6FDBAE99BD57287C710102D26",
+    count = 1,
+    nbt = {
+     Id = "ironjetpacks:copper",
+    },
+    displayName = "[Copper Jetpack]",
+   },
+   18 = {
+    tags = {
+     1 = "minecraft:item/minecraft:freeze_immune_wearables",
+     2 = "minecraft:item/forge:armors/chestplates",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "roamers:wool_chestplate",
+    maxStackSize = 1,
+    fingerprint = "D240ACFC99BF5284902D004FC9E2830C",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Wool Coat]",
+   },
+   19 = {
+    tags = {
+    },
+    name = "cold_sweat:goat_fur_parka",
+    maxStackSize = 1,
+    fingerprint = "58164D04152E8AB80CFB1CFF2E7EC11E",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Goat Fur Parka]",
+   },
+   20 = {
+    tags = {
+     1 = "minecraft:item/forge:armors/chestplates",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     4 = "minecraft:item/ars_nouveau:robe",
+    },
+    name = "ars_nouveau:sorcerer_robes",
+    maxStackSize = 1,
+    fingerprint = "2A760C2E6920E1CC18F07EAE1A2CF73A",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Sorceror's Wrap]",
+   },
+   21 = {
+    tags = {
+    },
+    name = "extraarmor:crimson_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "BFB9A180F9A7A2745F069313B5E3425F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Crimson Wood Chestplate]",
+   },
+   22 = {
+    tags = {
+    },
+    name = "extraarmor:dark_oak_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "06FFC6D92F0C1E94508271F3A78FFFE8",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Dark Oak Wood Chestplate]",
+   },
+   23 = {
+    tags = {
+    },
+    name = "extraarmor:birch_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "16FE4E3873EE9C2DEDA1E3C7E2239BD4",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Birch Wood Chestplate]",
+   },
+   24 = {
+    tags = {
+    },
+    name = "extraarmor:magma_chestplate",
+    maxStackSize = 1,
+    fingerprint = "E46D3B796A9C7A446101DB0FD4874152",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Magma Chestplate]",
+   },
+   25 = {
+    tags = {
+    },
+    name = "extraarmor:warped_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "CFCBD2EFA44956EC293B6BD7203412F0",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Warped Wood Chestplate]",
+   },
+   26 = {
+    tags = {
+    },
+    name = "extraarmor:quartz_chestplate",
+    maxStackSize = 1,
+    fingerprint = "84841B59C1FA7C83B7472C6638A7CDA8",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Quartz Chestplate]",
+   },
+   27 = {
+    tags = {
+    },
+    name = "extraarmor:feather_chestplate",
+    maxStackSize = 1,
+    fingerprint = "6FEAAD600EF6129D5403A5C7A629247F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Feather Chestplate]",
+   },
+   28 = {
+    tags = {
+    },
+    name = "extraarmor:acacia_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "29EBF5199B89A022BB063A7DFFE14294",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Acacia Wood Chestplate]",
+   },
+   29 = {
+    tags = {
+    },
+    name = "extraarmor:ice_chestplate",
+    maxStackSize = 1,
+    fingerprint = "45B9EE7FB1140440EE59F6546E2089A5",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Ice Chestplate]",
+   },
+   30 = {
+    tags = {
+    },
+    name = "extraarmor:glowstone_chestplate",
+    maxStackSize = 1,
+    fingerprint = "99163EF93FDD42BB42ACFA4DA37E87A6",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glowstone Chestplate]",
+   },
+   31 = {
+    tags = {
+    },
+    name = "extraarmor:pumpkin_chestplate",
+    maxStackSize = 1,
+    fingerprint = "7F78379B18DC20B1AAB74F5BF1C881E2",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Pumpkin Chestplate]",
+   },
+   32 = {
+    tags = {
+    },
+    name = "extraarmor:jungle_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "1E35BF2311B18D48F63984E9B672D26F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Jungle Wood Chestplate]",
+   },
+   33 = {
+    tags = {
+    },
+    name = "extraarmor:mangrove_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "5BA2A2B1931119FB747ABCBB7BA024B9",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Mangrove Wood Chestplate]",
+   },
+   34 = {
+    tags = {
+    },
+    name = "extraarmor:honeycomb_chestplate",
+    maxStackSize = 1,
+    fingerprint = "8E61EB4CDB112E57255BA3EC648196A0",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Honeycomb Chestplate]",
+   },
+   35 = {
+    tags = {
+    },
+    name = "extraarmor:oak_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "F1025E6D3CA0A604749E4E174D76E2A0",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Oak Wood Chestplate]",
+   },
+   36 = {
+    tags = {
+    },
+    name = "extraarmor:snow_chestplate",
+    maxStackSize = 1,
+    fingerprint = "FC7C0ECB1D2758D3B6FA1AF8D4AF0B24",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Snow Chestplate]",
+   },
+   37 = {
+    tags = {
+    },
+    name = "extraarmor:cactus_chestplate",
+    maxStackSize = 1,
+    fingerprint = "C4F064B145E98DBFF9951849CA00D141",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Cactus Chestplate]",
+   },
+   38 = {
+    tags = {
+    },
+    name = "extraarmor:lapis_chestplate",
+    maxStackSize = 1,
+    fingerprint = "A6E1931C2697AF9651452E228DE2EB17",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Lapis Chestplate]",
+   },
+   39 = {
+    tags = {
+    },
+    name = "extraarmor:melon_chestplate",
+    maxStackSize = 1,
+    fingerprint = "ECE2F0D2686CEE7BE7410E6081CD896B",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Melon Chestplate]",
+   },
+   40 = {
+    tags = {
+    },
+    name = "extraarmor:spruce_wood_chestplate",
+    maxStackSize = 1,
+    fingerprint = "377097C716949C3702384E103C4A02F4",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Spruce Wood Chestplate]",
+   },
+   41 = {
+    tags = {
+    },
+    name = "extraarmor:glass_chestplate",
+    maxStackSize = 1,
+    fingerprint = "D2AFE5329A9476B3F356404DF548EBB6",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glass Chestplate]",
+   },
+   42 = {
+    tags = {
+    },
+    name = "extraarmor:emerald_chestplate",
+    maxStackSize = 1,
+    fingerprint = "7C80650D6D9B652CF47EBDBFBB6BDB55",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Emerald Chestplate]",
+   },
+   43 = {
+    tags = {
+     1 = "minecraft:item/create:pressurized_air_sources",
+     2 = "minecraft:item/forge:armors/chestplates",
+     3 = "minecraft:item/forge:armors",
+     4 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "create:copper_backtank",
+    maxStackSize = 1,
+    fingerprint = "3572DE6718937C1EE718C28AF65AB763",
+    count = 1,
+    nbt = {
+     Air = 900,
+    },
+    displayName = "[Copper Backtank]",
+   },
+   44 = {
+    tags = {
+     1 = "minecraft:item/forge:armor/chestplates",
+    },
+    name = "alexscaves:primordial_tunic",
+    maxStackSize = 1,
+    fingerprint = "332D3D10D13DFEE3995AFD2E64CBD806",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Primordial Tunic]",
+   },
+  },
+  minCount = 1,
+  desc = "Chestplate with minimal level: Leather and with maximal level: Chain",
+ },
+ 15 = {
+  state = "IN_PROGRESS",
+  target = "Farmer Thiago T. Crugg",
+  name = "1-64 Enderman Seeds",
+  count = 64,
+  id = "d3cd0c16-e1c3-493d-8b9a-1047dfc72b0b",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/mysticalagriculture:seeds",
+     2 = "minecraft:item/quark:seed_pouch_holdable",
+     3 = "minecraft:item/minecolonies:farmer_product",
+     4 = "minecraft:item/naturalist:bird_food_items",
+     5 = "minecraft:item/minecolonies:compostables_poor",
+     6 = "minecraft:item/ars_nouveau:whirlisprig/denied_drop",
+     7 = "minecraft:item/forge:seeds",
+    },
+    name = "mysticalagriculture:enderman_seeds",
+    maxStackSize = 64,
+    fingerprint = "FBEA72D27635EE53BCF9A9FF2594E2AC",
+    count = 64,
+    nbt = {
+    },
+    displayName = "[Enderman Seeds]",
+   },
+  },
+  minCount = 1,
+  desc = "1-64 Enderman Seeds",
+ },
+ 16 = {
+  state = "IN_PROGRESS",
+  target = "Smelter Sariah A. Coffin",
+  name = "Fuel",
+  count = 64,
+  id = "a30a4698-c86c-419e-85fc-a8631d4bcae1",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/forge:buckets",
+     2 = "minecraft:item/forge:buckets/lava",
+    },
+    name = "minecraft:lava_bucket",
+    maxStackSize = 1,
+    fingerprint = "3C05581CD47F9E10732E7DE871D538A5",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Lava Bucket]",
+   },
+  },
+  minCount = 1,
+  desc = "Fuel",
+ },
+ 17 = {
+  state = "IN_PROGRESS",
+  target = "Doctor Kash N. Chudderley",
+  name = "1 Golden Apple",
+  count = 1,
+  id = "e34b52ff-7f3b-4588-9a7a-177b43fdb9cc",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/incendium:iron_stackable",
+     2 = "minecraft:item/roamers:treasure_items",
+     3 = "minecraft:item/roamers:edible_items",
+     4 = "minecraft:item/roamers:food_items",
+     5 = "minecraft:item/minecraft:piglin_loved",
+     6 = "minecraft:item/incendium:gold_stackable",
+     7 = "minecraft:item/scguns:strong_compost",
+    },
+    name = "minecraft:golden_apple",
+    maxStackSize = 64,
+    fingerprint = "E76A6AEF2E5C284A9CBF47129EB73738",
+    count = 1,
+    nbt = {
+    },
+    displayName = "[Golden Apple]",
+   },
+  },
+  minCount = 1,
+  desc = "1 Golden Apple",
+ },
+ 18 = {
+  state = "IN_PROGRESS",
+  target = "Farmer",
+  name = "320 Inferium Essence",
+  count = 320,
+  id = "09598045-7cbc-49e6-9a29-9c840c087b3a",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/mysticalagriculture:essences",
+    },
+    name = "mysticalagriculture:inferium_essence",
+    maxStackSize = 64,
+    fingerprint = "F34F61AA5DAECA1B8369C50888A51D88",
+    count = 5,
+    nbt = {
+    },
+    displayName = "[Inferium Essence]",
+   },
+  },
+  minCount = 320,
+  desc = "320 Inferium Essence",
+ },
+ 19 = {
+  state = "IN_PROGRESS",
+  target = "Farmer Thiago T. Crugg",
+  name = "1-64 Inferium Seeds",
+  count = 64,
+  id = "a7594a9c-92d9-4af3-a167-9c0f208b8df7",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/mysticalagriculture:seeds",
+     2 = "minecraft:item/quark:seed_pouch_holdable",
+     3 = "minecraft:item/minecolonies:farmer_product",
+     4 = "minecraft:item/naturalist:bird_food_items",
+     5 = "minecraft:item/minecolonies:compostables_poor",
+     6 = "minecraft:item/ars_nouveau:whirlisprig/denied_drop",
+     7 = "minecraft:item/forge:seeds",
+    },
+    name = "mysticalagriculture:inferium_seeds",
+    maxStackSize = 64,
+    fingerprint = "3BD40DED4C496B9A016BA1153A2FCABC",
+    count = 64,
+    nbt = {
+    },
+    displayName = "[Inferium Seeds]",
+   },
+  },
+  minCount = 1,
+  desc = "1-64 Inferium Seeds",
+ },
+ 20 = {
+  state = "IN_PROGRESS",
+  target = "Farmer",
+  name = "1280 Inferium Essence",
+  count = 1280,
+  id = "a9f822ba-08cb-4fa3-9432-6876011a8da8",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/mysticalagriculture:essences",
+    },
+    name = "mysticalagriculture:inferium_essence",
+    maxStackSize = 64,
+    fingerprint = "F34F61AA5DAECA1B8369C50888A51D88",
+    count = 5,
+    nbt = {
+    },
+    displayName = "[Inferium Essence]",
+   },
+  },
+  minCount = 1280,
+  desc = "1280 Inferium Essence",
+ },
+ 21 = {
+  state = "IN_PROGRESS",
+  target = "Restaurant",
+  name = "16 Planet Peach",
+  count = 16,
+  id = "104cc35b-29e7-4c68-80f6-33c772834d55",
+  items = {
+   1 = {
+    tags = {
+    },
+    name = "productivetrees:planet_peach",
+    maxStackSize = 64,
+    fingerprint = "A37B02374A2D05DA6D5033DB38EF2F2A",
+    count = 16,
+    nbt = {
+    },
+    displayName = "[Planet Peach]",
+   },
+  },
+  minCount = 16,
+  desc = "16 Planet Peach",
+ },
+ 22 = {
+  state = "IN_PROGRESS",
+  target = "Knight Sterling G. Asplin",
+  name = "Leggings",
+  count = 1,
+  id = "4b3e899f-827d-46a0-8aa2-d3e807cebd87",
+  items = {
+   1 = {
+    tags = {
+     1 = "minecraft:item/bookshelf:leggings",
+     2 = "minecraft:item/forge:armors/leggings",
+     3 = "minecraft:item/forge:armor",
+     4 = "minecraft:item/forge:armors",
+     5 = "minecraft:item/minecraft:piglin_loved",
+     6 = "minecraft:item/incendium:gold_unstackable",
+     7 = "minecraft:item/forge:leggings",
+     8 = "minecraft:item/minecraft:trimmable_armor",
+     9 = "minecraft:item/incendium:tools_armor",
+     10 = "minecraft:item/roamers:treasure_items",
+     11 = "minecraft:item/forge:armor/gold",
+     12 = "minecraft:item/bookshelf:armor",
+     13 = "minecraft:item/incendium:armor",
+     14 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+    },
+    name = "minecraft:golden_leggings",
+    maxStackSize = 1,
+    fingerprint = "B822066D1617D44F0D8AF0B211F3B717",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Golden Leggings]",
+   },
+   2 = {
+    tags = {
+     1 = "minecraft:item/bookshelf:leggings",
+     2 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     3 = "minecraft:item/minecraft:freeze_immune_wearables",
+     4 = "minecraft:item/minecraft:trimmable_armor",
+     5 = "minecraft:item/forge:armors",
+     6 = "minecraft:item/forge:armors/leggings",
+     7 = "minecraft:item/forge:leggings",
+     8 = "minecraft:item/create_new_age:nuclear/hazmat_suit",
+     9 = "minecraft:item/forge:armor",
+     10 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:leather_leggings",
+    maxStackSize = 1,
+    fingerprint = "0997BE62D4BCD03864E35A3CC3F95CE3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Leather Pants]",
+   },
+   3 = {
+    tags = {
+     1 = "minecraft:item/forge:armors/leggings",
+     2 = "minecraft:item/bookshelf:leggings",
+     3 = "minecraft:item/alexscaves:galena_gauntlet_crystallization_items",
+     4 = "minecraft:item/forge:armors",
+     5 = "minecraft:item/incendium:tools_armor",
+     6 = "minecraft:item/forge:armor",
+     7 = "minecraft:item/forge:leggings",
+     8 = "minecraft:item/alexscaves:ferromagnetic_items",
+     9 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     10 = "minecraft:item/minecraft:trimmable_armor",
+     11 = "minecraft:item/incendium:armor",
+     12 = "minecraft:item/bookshelf:armor",
+    },
+    name = "minecraft:chainmail_leggings",
+    maxStackSize = 1,
+    fingerprint = "87FE21BC92C3E491FD0CE7EFACEB935B",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Chainmail Leggings]",
+   },
+   4 = {
+    tags = {
+     1 = "minecraft:item/minecraft:freeze_immune_wearables",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     4 = "minecraft:item/forge:armors/leggings",
+    },
+    name = "roamers:wool_leggings",
+    maxStackSize = 1,
+    fingerprint = "B6AD197BB8F5840218B52E56D155A7EA",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Wool Leggings]",
+   },
+   5 = {
+    tags = {
+    },
+    name = "cold_sweat:goat_fur_pants",
+    maxStackSize = 1,
+    fingerprint = "36DDEED19D9B7A0B9E8545CA102A31CC",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Goat Fur Pants]",
+   },
+   6 = {
+    tags = {
+     1 = "minecraft:item/ars_nouveau:legs",
+     2 = "minecraft:item/forge:armors",
+     3 = "minecraft:item/biomancy:cannot_be_eaten_by_cradle",
+     4 = "minecraft:item/forge:armors/leggings",
+    },
+    name = "ars_nouveau:sorcerer_leggings",
+    maxStackSize = 1,
+    fingerprint = "9AC515093E9C0E6AD69028483F18D5F6",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Sorceror's Leggings]",
+   },
+   7 = {
+    tags = {
+    },
+    name = "extraarmor:emerald_leggings",
+    maxStackSize = 1,
+    fingerprint = "0E75E175897D4A6D1DF4FE9FB0C4E635",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Emerald Leggings]",
+   },
+   8 = {
+    tags = {
+    },
+    name = "extraarmor:jungle_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "69E04ABAB5D3867BA4B6DEABB9B95298",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Jungle Wood Leggings]",
+   },
+   9 = {
+    tags = {
+    },
+    name = "extraarmor:warped_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "20DEEE4B29FC218C15FCAD5AF4070B86",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Warped Wood Leggings]",
+   },
+   10 = {
+    tags = {
+    },
+    name = "extraarmor:dark_oak_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "D7570BBD4D7F8BE7B35822CEE85E2165",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Dark Oak Wood Leggings]",
+   },
+   11 = {
+    tags = {
+    },
+    name = "extraarmor:feather_leggings",
+    maxStackSize = 1,
+    fingerprint = "7FB0696F18939E5B0875A2D9BFE4D076",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Feather Leggings]",
+   },
+   12 = {
+    tags = {
+    },
+    name = "extraarmor:acacia_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "5025F62D453979CE6A6F4C68089C8011",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Acacia Wood Leggings]",
+   },
+   13 = {
+    tags = {
+    },
+    name = "extraarmor:cactus_leggings",
+    maxStackSize = 1,
+    fingerprint = "2687504E3B017B656BD5284CC5595107",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Cactus Leggings]",
+   },
+   14 = {
+    tags = {
+    },
+    name = "extraarmor:crimson_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "04F02CF6632E6FDAD70CBBCE2214768A",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Crimson Wood Leggings]",
+   },
+   15 = {
+    tags = {
+    },
+    name = "extraarmor:snow_leggings",
+    maxStackSize = 1,
+    fingerprint = "BE5B6365A26448B6C414487B69B82210",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Snow Leggings]",
+   },
+   16 = {
+    tags = {
+    },
+    name = "extraarmor:spruce_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "8F36BE35D849FD8642DEAD9F32A4D718",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Spruce Wood Leggings]",
+   },
+   17 = {
+    tags = {
+    },
+    name = "extraarmor:glowstone_leggings",
+    maxStackSize = 1,
+    fingerprint = "053FDA8969BF421FE3F7A71548C38DF4",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glowstone Leggings]",
+   },
+   18 = {
+    tags = {
+    },
+    name = "extraarmor:pumpkin_leggings",
+    maxStackSize = 1,
+    fingerprint = "A599DBF28B113B1CF3713E7E3291E405",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Pumpkin Leggings]",
+   },
+   19 = {
+    tags = {
+    },
+    name = "extraarmor:oak_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "992B3CD98ED65601D62AAF2E6FB2FA79",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Oak Wood Leggings]",
+   },
+   20 = {
+    tags = {
+    },
+    name = "extraarmor:magma_leggings",
+    maxStackSize = 1,
+    fingerprint = "0B3844A0369C90AFD97A293DF5EBD2AD",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Magma Leggings]",
+   },
+   21 = {
+    tags = {
+    },
+    name = "extraarmor:lapis_leggings",
+    maxStackSize = 1,
+    fingerprint = "0D7AD0DD416C6EFB771D9B147A322447",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Lapis Leggings]",
+   },
+   22 = {
+    tags = {
+    },
+    name = "extraarmor:mangrove_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "C7E32A2DDC017FC1567FD300F3F4FD9E",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Mangrove Wood Leggings]",
+   },
+   23 = {
+    tags = {
+    },
+    name = "extraarmor:melon_leggings",
+    maxStackSize = 1,
+    fingerprint = "5A3B39B94CA096718C7537A9903B80A3",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Melon Leggings]",
+   },
+   24 = {
+    tags = {
+    },
+    name = "extraarmor:birch_wood_leggings",
+    maxStackSize = 1,
+    fingerprint = "857A78B98F3C49853C364E1FC845D5FF",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Birch Wood Leggings]",
+   },
+   25 = {
+    tags = {
+    },
+    name = "extraarmor:quartz_leggings",
+    maxStackSize = 1,
+    fingerprint = "F5633F6074BD584CCC76A754D7CF8452",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Quartz Leggings]",
+   },
+   26 = {
+    tags = {
+    },
+    name = "extraarmor:glass_leggings",
+    maxStackSize = 1,
+    fingerprint = "3A9618A428BF804F7C5D0E14E9C77AB5",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Glass Leggings]",
+   },
+   27 = {
+    tags = {
+    },
+    name = "extraarmor:ice_leggings",
+    maxStackSize = 1,
+    fingerprint = "3DD18E3DC25404259C83BB01028BC96F",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Ice Leggings]",
+   },
+   28 = {
+    tags = {
+    },
+    name = "extraarmor:honeycomb_leggings",
+    maxStackSize = 1,
+    fingerprint = "3166BE67B71698F7BF6EB641944DDFA2",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Honeycomb Leggings]",
+   },
+   29 = {
+    tags = {
+     1 = "minecraft:item/forge:armor/leggings",
+    },
+    name = "alexscaves:primordial_pants",
+    maxStackSize = 1,
+    fingerprint = "2988FD05E5ECA1ACA7A20AB99173F8BE",
+    count = 1,
+    nbt = {
+     Damage = 0,
+    },
+    displayName = "[Primordial Pants]",
+   },
+  },
+  minCount = 1,
+  desc = "Leggings with minimal level: Leather and with maximal level: Chain",
+ },
+}

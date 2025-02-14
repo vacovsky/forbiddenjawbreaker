@@ -8,7 +8,7 @@ local REFRESH_TIME = 60
 -- END CONFIGURATION SECTION
 ----------------------------------
 local colony = peripheral.find("colonyIntegrator")
-local monitor = peripheral.find("monitor")
+local monitor = peripheral.wrap("top")
 -- local warehouse = peripheral.find("minecolonies:warehouse")
 
 if monitor ~= nil then
