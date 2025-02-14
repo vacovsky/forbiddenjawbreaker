@@ -81,5 +81,5 @@ end
 
 while true do
     FullfillColonyRequests()
-    sleep(300)
+    sleep(180)
 end

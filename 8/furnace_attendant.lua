@@ -9,6 +9,7 @@ local max_result_allowed = 512
 local furnaces = 'furnace'
 -- local furnaces = 'minecraft:furnace'
 local waxfuel = 'productivebees:wax'
+local lavafuel = "minecraft:lava_bucket"
 -- local generator_coalbox = 'sophisticatedstorage:barrel_3'
 local coalfuel = 'minecraft:coal'
 local raw_items = {
@@ -43,9 +44,13 @@ function AttendFurnaces()
             -- print('deposited', whi.DepositInAnyWarehouse(furnace, 2), raw_item)
 
             -- print(whi.GetFromAnyWarehouse(false, waxfuel, furnace, 64, 2), 'fueled (wax)', furnace)
-            
+
             -- print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 1, 2), 'fueled (lava)', furnace)
-            moved = moved + sc.pull(waxfuel, 8, true, furnace, 2)
+            stored = moved + sc.push(furnace, 2)
+            moved = moved + sc.pull(waxfuel, 64, true, furnace, 2)
+            moved = moved + sc.pull(lavafuel, 64, true, furnace, 2)
+
+
             -- sc.pull(waxfuel, 8, true, furnace, 2)
             -- move smelted items to warehouse
             -- print('deposited', whi.DepositInAnyWarehouse(furnace, 3), 'items')
