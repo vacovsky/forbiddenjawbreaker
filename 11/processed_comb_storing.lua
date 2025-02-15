@@ -3,7 +3,7 @@ local vars = require "lib/constants"
 local whi = require "lib/whi"
 local sc = require "lib/sc"
 
-local processed_outputs = 'enderstorage:ender_chest_7'
+local processed_outputs = 'enderstorage:ender_chest_10'
 
 function CollectProcessedItems()
     local itemsMoved = 0

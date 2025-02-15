@@ -1,0 +1,1 @@
+shell.openTab("generator_controller", "gencon")

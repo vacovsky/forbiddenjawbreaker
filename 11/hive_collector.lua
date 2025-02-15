@@ -5,7 +5,7 @@ local net = require "lib/network"
 local sc = require "lib/sc"
 
 -- local combs_source = 'enderstorage:ender_chest_5'
-local combs_dest = 'enderstorage:ender_chest_8'
+local combs_dest = 'enderstorage:ender_chest_9'
 -- local combs_dest = 'sophisticatedstorage:chest_2'
 -- local combs_dest = 'pneumaticcraft:reinforced_chest_1'
 

@@ -48,7 +48,7 @@ function AttendFurnaces()
             -- print(whi.GetFromAnyWarehouse(false, 'minecraft:lava_bucket', furnace, 1, 2), 'fueled (lava)', furnace)
             stored = moved + sc.push(furnace, 2)
             moved = moved + sc.pull(waxfuel, 64, true, furnace, 2)
-            moved = moved + sc.pull(lavafuel, 64, true, furnace, 2)
+            moved = moved + sc.pull(lavafuel, 1, true, furnace, 2)
 
 
             -- sc.pull(waxfuel, 8, true, furnace, 2)
