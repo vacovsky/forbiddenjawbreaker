@@ -3,8 +3,9 @@ local net = require 'lib/network'
 -- CONFIGURATION SECTION
 local POWER_BANK = '_capacitor_bank_'
 local MOTOR_DIRECTION = "top"
-local POLLING_INTERVAL = 3
+local POLLING_INTERVAL = 30
 local GEN_STATE = true
+local BATTERY_MODIFIER = 0.9
 
 function GeneratorController()
     local data = {
@@ -17,10 +18,10 @@ function GeneratorController()
         data.energy_stored = data.energy_stored + powerPeripheral.getEnergy()
     end
 
-    print("Current Power", data.energy_stored, data.energy_capacity)
+    -- print("Current Power", data.energy_stored, data.energy_capacity)
 
 
-    if data.energy_capacity / 2 > data.energy_stored then
+    if data.energy_capacity * BATTERY_MODIFIER > data.energy_stored then
         if not GEN_STATE then
             print("Generator activated", data.energy_stored, data.energy_capacity)
             GEN_STATE = true

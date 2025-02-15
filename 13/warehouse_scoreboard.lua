@@ -72,6 +72,11 @@ function PowerStats()
         data.energy_capacity = data.energy_capacity + powerPeripheral.getEnergyCapacity()
         data.energy_stored = data.energy_stored + powerPeripheral.getEnergy()
     end
+
+    -- dividing by two because two networks are touching the batteries
+    -- data.energy_stored = data.energy_stored / 2
+    -- data.energy_capacity = data.energy_capacity / 2
+
     print("power", data.energy_stored , data.energy_capacity)
     tsdb.WriteOutput("ForbiddenJawbreaker:MerlinsButthair", "power", data, "power.json")
 end
