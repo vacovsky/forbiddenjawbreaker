@@ -4,7 +4,7 @@ local net = require 'lib/network'
 local POWER_BANK = '_capacitor_bank_'
 local MOTOR_DIRECTION = "top"
 local POLLING_INTERVAL = 3
-local GEN_STATE = false
+local GEN_STATE = true
 
 function GeneratorController()
     local data = {
@@ -17,22 +17,25 @@ function GeneratorController()
         data.energy_stored = data.energy_stored + powerPeripheral.getEnergy()
     end
 
+    print("Current Power", data.energy_stored, data.energy_capacity)
+
+
     if data.energy_capacity / 2 > data.energy_stored then
-        redstone.setOutput(MOTOR_DIRECTION, true)
         if not GEN_STATE then
             print("Generator activated", data.energy_stored, data.energy_capacity)
+            GEN_STATE = true
         end
-        GEN_STATE = true
+        redstone.setOutput(MOTOR_DIRECTION, true)
     else
         if GEN_STATE then
-            redstone.setOutput(MOTOR_DIRECTION, false)
             print("Generator deactivated", data.energy_stored, data.energy_capacity)
+            GEN_STATE = false
         end
-        GEN_STATE = false
+        redstone.setOutput(MOTOR_DIRECTION, false)
     end
 end
 
-
+print("Starting GENERATOR_CONTROLLER")
 while true do
     if not pcall(GeneratorController) then print('GeneratorController() failed to complete') end
     sleep(POLLING_INTERVAL)
