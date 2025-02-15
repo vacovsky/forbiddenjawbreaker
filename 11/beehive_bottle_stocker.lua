@@ -14,7 +14,7 @@ function StockBottles()
 end
 
 while true do
-    StockBottles()
-    -- if not pcall(StockBottles) then print('StockBottles() failed to complete') end
+    -- StockBottles()
+    if not pcall(StockBottles) then print('StockBottles() failed to complete') end
     sleep(1)
 end

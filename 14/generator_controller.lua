@@ -5,7 +5,7 @@ local POWER_BANK = '_capacitor_bank_'
 local MOTOR_DIRECTION = "top"
 local POLLING_INTERVAL = 30
 local GEN_STATE = true
-local BATTERY_MODIFIER = 0.9
+local BATTERY_MODIFIER = 0.3
 
 function GeneratorController()
     local data = {
