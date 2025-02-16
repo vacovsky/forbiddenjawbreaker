@@ -7,7 +7,8 @@ local POLLING_INTERVAL = 30
 local GEN_STATE = true
 local BATTERY_MODIFIER = 0.3
 
-function GeneratorController()
+
+function getPowerStats()
     local data = {
         energy_capacity = 0,
         energy_stored = 0
@@ -17,9 +18,13 @@ function GeneratorController()
         data.energy_capacity = data.energy_capacity + powerPeripheral.getEnergyCapacity()
         data.energy_stored = data.energy_stored + powerPeripheral.getEnergy()
     end
+    return data
+end
 
+function GeneratorController()
+
+    local data = getPowerStats()
     -- print("Current Power", data.energy_stored, data.energy_capacity)
-
 
     if data.energy_capacity * BATTERY_MODIFIER > data.energy_stored then
         if not GEN_STATE then
@@ -27,6 +32,10 @@ function GeneratorController()
             GEN_STATE = true
         end
         redstone.setOutput(MOTOR_DIRECTION, true)
+        while data.energy_capacity * 0.95 > data.energy_stored do
+            data = getPowerStats()
+            sleep(3)
+        end
     else
         if GEN_STATE then
             print("Generator deactivated", data.energy_stored, data.energy_capacity)
