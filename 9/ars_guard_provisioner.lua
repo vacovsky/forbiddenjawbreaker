@@ -61,60 +61,6 @@ function EnchantItem(base_item, recipe)
     ReturnTargetItemToUser()
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-function WriteToFile(input, fileName, mode)
-    local file = io.open(fileName, mode)
-    io.output(file)
-    io.write(input)
-    io.close(file)
-end
-
-function serializeTable(val, name, skipnewlines, depth)
-    skipnewlines = skipnewlines or false
-    depth = depth or 0
-
-    local tmp = string.rep(" ", depth)
-
-    if name then tmp = tmp .. name .. " = " end
-
-    if type(val) == "table" then
-        tmp = tmp .. "{" .. (not skipnewlines and "\n" or "")
-
-        for k, v in pairs(val) do
-            tmp =  tmp .. serializeTable(v, k, skipnewlines, depth + 1) .. "," .. (not skipnewlines and "\n" or "")
-        end
-
-        tmp = tmp .. string.rep(" ", depth) .. "}"
-    elseif type(val) == "number" then
-        tmp = tmp .. tostring(val)
-    elseif type(val) == "string" then
-        tmp = tmp .. string.format("%q", val)
-    elseif type(val) == "boolean" then
-        tmp = tmp .. (val and "true" or "false")
-    else
-        tmp = tmp .. "\"[inserializeable datatype:" .. type(val) .. "]\""
-    end
-
-    return tmp
-end
-
-WriteToFile(serializeTable(whi.ItemCountMap()), "items.json", "w")
-
-
-
-
 while true do
     local currentInventory = whi.ItemCountMap()
 
@@ -136,7 +82,11 @@ while true do
     local base_helmet = 'minecraft:iron_helmet'
     local ars_hood = 'ars_nouveau:hood'
 
-    print(currentInventory)
+    -- print(currentInventory)
+    
+    rednet.send(16, 'item_count_map', 'storage_status_api')
+    local id, message = rednet.receive()
+    for i, k in pairs(message) do print(i, k) end
 
     -- -- boots hood leggings robes
     -- if currentInventory[ars_leggings] == nil or currentInventory[ars_leggings] < 3 then
