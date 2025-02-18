@@ -2,7 +2,7 @@ local net = require 'lib/network'
 
 -- CONFIGURATION SECTION
 local POWER_BANK = '_capacitor_bank_'
-local MOTOR_DIRECTION = "top"
+local MOTOR_DIRECTION = "left"
 local POLLING_INTERVAL = 30
 local GEN_STATE = true
 local BATTERY_MODIFIER = 0.3
@@ -31,7 +31,7 @@ function GeneratorController()
             print("Generator activated", data.energy_stored, data.energy_capacity)
             GEN_STATE = true
         end
-        redstone.setOutput(MOTOR_DIRECTION, true)
+        redstone.setOutput(MOTOR_DIRECTION, false)
         while data.energy_capacity * 0.95 > data.energy_stored do
             data = getPowerStats()
             sleep(3)
@@ -41,7 +41,7 @@ function GeneratorController()
             print("Generator deactivated", data.energy_stored, data.energy_capacity)
             GEN_STATE = false
         end
-        redstone.setOutput(MOTOR_DIRECTION, false)
+        redstone.setOutput(MOTOR_DIRECTION, true)
     end
 end
 

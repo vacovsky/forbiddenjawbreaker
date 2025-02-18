@@ -51,4 +51,11 @@ ars_enchanter_recipes.arcanist_armor = {
     'ars_nouveau:magebloom_fiber',
 }
 
+
+ars_enchanter_recipes.spell_bow = {
+    'ars_nouveau:source_gem_block',
+    'ars_nouveau:manipulation_essence',
+    'minecraft:gold_block',
+}
+
 return ars_enchanter_recipes

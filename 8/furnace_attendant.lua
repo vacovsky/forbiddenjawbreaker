@@ -7,6 +7,7 @@ local minraw_before_smelt = 256
 local max_result_allowed = 512
 
 local furnaces = 'furnace'
+local generators = 'enderio:stirling'
 -- local furnaces = 'minecraft:furnace'
 local waxfuel = 'productivebees:wax'
 local lavafuel = "minecraft:lava_bucket"
@@ -69,10 +70,10 @@ function AttendFurnaces()
 end
 
 function FuelGenerators()
-
+    for _, gen in net.ListMatchingDevices(generators) do
     -- sc.pull(raw_item, 8, true, furnace, 1)
-
-    -- print(sc.pull(waxfuel, 1024, true, generator_coalbox), 'gen: fueled (wax)')
+        print(sc.pull(waxfuel, 64, true, gen, 2), 'gen: fueled (wax)')
+    end
     -- print(whi.GetFromAnyWarehouse(false, waxfuel, generator_coalbox, 1024, 2), 'gen: fueled (wax)')
     -- print(whi.GetFromAnyWarehouse(false, waxfuel, generator_coalbox, 1024, 2), 'gen: fueled (wax)')
     -- print(whi.GetFromAnyWarehouse(false, waxfuel, generator_coalbox, 1024, 2), 'gen: fueled (wax)')
@@ -82,7 +83,7 @@ function FuelGenerators()
 end
 
 while true do
-    -- if not pcall(FuelGenerators) then print('FuelGenerators() failed to complete') end
+    if not pcall(FuelGenerators) then print('FuelGenerators() failed to complete') end
     -- FuelGenerators()
     if not pcall(AttendFurnaces) then print('AttendFurnaces() failed to complete') end
     -- AttendFurnaces()

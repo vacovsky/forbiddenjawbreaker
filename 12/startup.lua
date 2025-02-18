@@ -1,6 +1,7 @@
 -- shell.openTab("hive_collector")
 -- shell.openTab("honey_depositer")
 
+sleep(120)
 
 shell.openTab("fuge_loader")
 shell.openTab("fuge_unloader")

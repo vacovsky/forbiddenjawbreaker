@@ -37,6 +37,8 @@ constants.storage_buffers = {
     ["sophisticatedstorage:chest_53"]="sophisticatedstorage:chest_54",
     ["sophisticatedstorage:chest_55"]="sophisticatedstorage:chest_56",
     ["sophisticatedstorage:chest_57"]="sophisticatedstorage:chest_58",
+    ["sophisticatedstorage:chest_59"]="sophisticatedstorage:chest_61",
+    ["sophisticatedstorage:chest_60"]="sophisticatedstorage:chest_62",
 }
 
 -- private

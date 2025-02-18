@@ -29,7 +29,7 @@ function WarehouseStats()
         ["minecraft:gold_ingot"] = 0,
         ["mysticalagradditions:insanium_essence"] = 0
     }
-    for _, x in pairs(item_freq) do 
+    for _, x in pairs(item_freq) do
         table.insert(tempTbl, x)
         data[x.name] = x.count
     end

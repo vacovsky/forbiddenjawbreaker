@@ -1,12 +1,18 @@
 -- startup.lua
+sleep(120)
 local local_modem = "back"
 rednet.open(local_modem)
 rednet.host("storage_client", ("%s"):format(os.getComputerID()))
 
 
--- shell.openTab("furnace_attendant")
+shell.openTab("fuel_generators")
 shell.openTab("powered_furnace_attendant")
-shell.openTab("lava_bucket")
+-- shell.openTab("lava_bucket")
+
+
+
+
+
 -- shell.openTab("honey_power")
 -- shell.openTab("gene_collector")
 -- shell.openTab("mycelial_generator")
