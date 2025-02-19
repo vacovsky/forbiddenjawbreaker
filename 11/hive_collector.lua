@@ -4,7 +4,7 @@ local whi = require "lib/whi"
 local net = require "lib/network"
 local sc = require "lib/sc"
 
-local combs_dest = 'enderstorage:ender_chest_9'
+local combs_dest = 'enderstorage:ender_chest_12'
 
 
 function CollectFromHives()

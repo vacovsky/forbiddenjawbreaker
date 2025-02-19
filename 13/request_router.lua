@@ -15,9 +15,15 @@ while true do
     local api_arg_3 = parts(5)
     if api == "get" then
         print("client", id, "api", "get")
-        
         local currentTabId = multishell.getFocus()
         local newTabId = shell.openTab("get_api", id, api_client, api_arg_1, api_arg_2, api_arg_3, internal_modem_name)
+        multishell.setFocus(newTabId)
+        multishell.setFocus(currentTabId)
+    end
+    if api == "count" then
+        print("client", id, "api", "count")
+        local currentTabId = multishell.getFocus()
+        local newTabId = shell.openTab("get_item_count_api", id, api_client, api_arg_1)
         multishell.setFocus(newTabId)
         multishell.setFocus(currentTabId)
     end

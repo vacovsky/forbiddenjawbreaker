@@ -1,12 +1,12 @@
 -- lib/sc.lua
 -- storage_client
 
-local sc = { _version = '0.0.4' }
+local sc = { _version = '0.0.5' }
 
 local tsdb = require 'lib/tsdb'
 
 local contro_proto = "storage_controller"
-local timeout = 10
+local timeout = 15
 
 function get_controller_id()
     print("getting the contro_id")
@@ -41,7 +41,25 @@ function get_return_storages()
     return return_names
 end
 
+
+function get_item_count(itemName)
+    print("getting count of", itemName)
+    local client_protocol = get_client_protocol()
+    rednet.send(contro_id, "count " .. client_protocol, itemName, contro_proto)
+    ::retry::
+    local sender_id, count, proto = rednet.receive(client_protocol, timeout)
+    if sender_id == nil then
+        print("timeout getting count", timeout)
+        goto retry
+    end
+    return count
+end
+
 local return_storages = get_return_storages()
+
+function sc.count(itemName)
+    return get_item_count(itemName)
+end
 
 function sc.pull(itemName, quantity, strict, destStorageName, destSlot)
     local req_start = os.epoch('utc')

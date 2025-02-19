@@ -84,9 +84,9 @@ while true do
 
     -- print(currentInventory)
     
-    rednet.send(16, 'item_count_map', 'storage_status_api')
-    local id, message = rednet.receive()
-    for i, k in pairs(message) do print(i, k) end
+    -- rednet.send(16, 'item_count_map', 'storage_status_api')
+    -- local id, message = rednet.receive()
+    -- for i, k in pairs(message) do print(i, k) end
 
     -- -- boots hood leggings robes
     -- if currentInventory[ars_leggings] == nil or currentInventory[ars_leggings] < 3 then
@@ -104,9 +104,9 @@ while true do
     -- if currentInventory[ars_boots] == nil or currentInventory[ars_boots] < 3 then
     --     EnchantItem(base_boots, enchants.arcanist_armor)
     -- end
-
-    -- if currentInventory[ars_bow] == nil or currentInventory[ars_bow] < 3 then
-    --     EnchantItem(base_bow, enchants.spell_bow)
-    -- end
+    print(sc.count(ars_bow))
+    if sc.count(ars_bow) < 3 then
+        EnchantItem(base_bow, enchants.spell_bow)
+    end
     sleep(300)
 end
