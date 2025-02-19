@@ -62,8 +62,6 @@ function EnchantItem(base_item, recipe)
 end
 
 while true do
-    local currentInventory = whi.ItemCountMap()
-
     term.clear()
     term.setBackgroundColor(colors.black)
 
@@ -82,31 +80,25 @@ while true do
     local base_helmet = 'minecraft:iron_helmet'
     local ars_hood = 'ars_nouveau:hood'
 
-    -- print(currentInventory)
+    -- boots hood leggings robes
+    if sc.count(ars_leggings) < 3 then
+        EnchantItem(base_leggings, enchants.arcanist_armor)
+    end
+
+    if sc.count(ars_hood) < 3 then
+        EnchantItem(base_helmet, enchants.arcanist_armor)
+    end
+
+    if sc.count(ars_robes) < 3 then
+        EnchantItem(base_chestplate, enchants.arcanist_armor)
+    end
+
+    if sc.count(ars_boots) < 3 then
+        EnchantItem(base_boots, enchants.arcanist_armor)
+    end
     
-    -- rednet.send(16, 'item_count_map', 'storage_status_api')
-    -- local id, message = rednet.receive()
-    -- for i, k in pairs(message) do print(i, k) end
-
-    -- -- boots hood leggings robes
-    -- if currentInventory[ars_leggings] == nil or currentInventory[ars_leggings] < 3 then
-    --     EnchantItem(base_leggings, enchants.arcanist_armor)
-    -- end
-
-    -- if currentInventory[ars_hood] == nil or currentInventory[ars_hood] < 3 then
-    --     EnchantItem(base_helmet, enchants.arcanist_armor)
-    -- end
-
-    -- if currentInventory[ars_robes] == nil or currentInventory[ars_robes] < 3 then
-    --     EnchantItem(base_chestplate, enchants.arcanist_armor)
-    -- end
-
-    -- if currentInventory[ars_boots] == nil or currentInventory[ars_boots] < 3 then
-    --     EnchantItem(base_boots, enchants.arcanist_armor)
-    -- end
-    print(sc.count(ars_bow))
     if sc.count(ars_bow) < 3 then
         EnchantItem(base_bow, enchants.spell_bow)
     end
-    sleep(300)
+    sleep(3)
 end

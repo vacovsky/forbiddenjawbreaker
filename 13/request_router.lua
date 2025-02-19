@@ -29,7 +29,6 @@ while true do
     end
     if api == "return" then
         print("client", id, "api", "return")
-
         local currentTabId = multishell.getFocus()
         local newTabId = shell.openTab("return_api", id, api_client)
         multishell.setFocus(newTabId)

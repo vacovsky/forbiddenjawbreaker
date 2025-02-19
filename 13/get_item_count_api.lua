@@ -7,11 +7,7 @@ local client_protocol = args[2]
 local item_query = args[3]
 
 local whi = require 'lib/whi'
-local map = whi.ItemCountMap()
-
-local count = map[item_query].count
-if count == nil then count = 0 end
-
+local count = whi.GetSpecificItemCount(item_query)
 rednet.send(client_id, count, client_protocol)
 
 print("debug sleep")

@@ -4,7 +4,7 @@ local INDEX_PROTOCOL = "whi_index"
 local INDEX_SERVER = "INDEX"
 local LAST_INDEX = {}
 local INDEX_REFRESH_DELAY = 30000 -- 30 seconds
-local warehouse_interface = { _version = '0.0.10' }
+local warehouse_interface = { _version = '0.0.11' }
 
 local net = require "lib/network"
 
@@ -51,6 +51,20 @@ function warehouse_interface.ItemLocationMap()
         end
     end
     return itemLocationIndex
+end
+
+
+function warehouse_interface.GetSpecificItemCount(itemName)
+    local warehouses = net.ListMultipleMatchingDevices(warehouses_list)
+    local count = 0
+
+    for _, warehouse in pairs(warehouses) do
+        local whp = peripheral.wrap(warehouse)
+        for _, item in pairs(whp.list()) do
+            if item.name == itemName then count = count + item.count end
+        end
+    end
+    return count
 end
 
 function warehouse_interface.ItemCountMap()

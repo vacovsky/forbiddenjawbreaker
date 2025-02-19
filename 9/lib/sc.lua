@@ -41,11 +41,11 @@ function get_return_storages()
     return return_names
 end
 
-
 function get_item_count(itemName)
     print("getting count of", itemName)
     local client_protocol = get_client_protocol()
-    rednet.send(contro_id, "count " .. client_protocol, itemName, contro_proto)
+    local payload = string.format("count %s %s", client_protocol, itemName)
+    rednet.send(contro_id, payload, contro_proto)
     ::retry::
     local sender_id, count, proto = rednet.receive(client_protocol, timeout)
     if sender_id == nil then
@@ -55,11 +55,11 @@ function get_item_count(itemName)
     return count
 end
 
-local return_storages = get_return_storages()
-
 function sc.count(itemName)
     return get_item_count(itemName)
 end
+
+local return_storages = get_return_storages()
 
 function sc.pull(itemName, quantity, strict, destStorageName, destSlot)
     local req_start = os.epoch('utc')
