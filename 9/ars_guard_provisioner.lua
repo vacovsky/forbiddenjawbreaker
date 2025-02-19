@@ -72,13 +72,13 @@ while true do
     local ars_leggings = 'ars_nouveau:arcanist_leggings'
 
     local base_boots = 'minecraft:iron_boots'
-    local ars_boots = 'ars_nouveau:boots'
+    local ars_boots = 'ars_nouveau:arcanist_boots'
 
     local base_chestplate = 'minecraft:iron_chestplate'
-    local ars_robes = 'ars_nouveau:robes'
+    local ars_robes = 'ars_nouveau:arcanist_robes'
 
     local base_helmet = 'minecraft:iron_helmet'
-    local ars_hood = 'ars_nouveau:hood'
+    local ars_hood = 'ars_nouveau:arcanist_hood'
 
     -- boots hood leggings robes
     if sc.count(ars_leggings) < 3 then
@@ -100,5 +100,5 @@ while true do
     if sc.count(ars_bow) < 3 then
         EnchantItem(base_bow, enchants.spell_bow)
     end
-    sleep(3)
+    sleep(120)
 end
