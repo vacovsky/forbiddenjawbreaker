@@ -8,3 +8,4 @@ rednet.host("storage_client", ("%s"):format(os.getComputerID()))
 
 
 shell.openTab("bullet_maker")
+shell.openTab("advanced_composter")

@@ -70,7 +70,7 @@ end
 
 print("starting bullet maker")
 while true do
-    -- if not pcall(MakeBullets) then print('MakeBullets() failed to complete') end
-    MakeBullets()
+    if not pcall(MakeBullets) then print('MakeBullets() failed to complete') end
+    -- MakeBullets()
     sleep(5)
 end
