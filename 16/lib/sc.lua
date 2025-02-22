@@ -42,7 +42,7 @@ function get_return_storages()
 end
 
 function get_item_count(itemName)
-    -- print("getting count of", itemName)
+    print("getting count of", itemName)
     local client_protocol = get_client_protocol()
     local payload = string.format("count %s %s", client_protocol, itemName)
     rednet.send(contro_id, payload, contro_proto)

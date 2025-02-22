@@ -4,7 +4,7 @@ local sc = require 'lib/sc'
 
 
 local avanced_composter_input = 'sophisticatedstorage:chest_94'
-local input_item = 'minecraft:wheat'
+local input_item = 'minecraft:wheat_seeds'
 
 function LoadComposter()
     -- add compostable items

@@ -12,7 +12,7 @@ shell.openTab("beehive_bottle_stocker")
 
 -- shell.openTab("fuge_unloader")
 
--- shell.openTab("gene_collector")
+shell.openTab("gene_collector")
 -- shell.openTab("honey_bottler")
 -- shell.openTab("turtle_honey_power")
 -- shell.openTab("honey_spout_filler")

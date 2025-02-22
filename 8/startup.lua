@@ -7,7 +7,7 @@ rednet.host("storage_client", ("%s"):format(os.getComputerID()))
 
 shell.openTab("fuel_generators")
 shell.openTab("powered_furnace_attendant")
--- shell.openTab("lava_bucket")
+shell.openTab("lava_bucket")
 
 
 

@@ -1,0 +1,114 @@
+return
+{
+	["bedPos"] = 
+	{
+		["y"] = 0,
+		["x"] = 0,
+		["z"] = 0,
+	},
+	["betterFood"] = false,
+	["isIdle"] = false,
+	["happiness"] = 10,
+	["home"] = 
+	{
+		["location"] = 
+		{
+			["y"] = 81,
+			["x"] = -4429,
+			["z"] = -276,
+		},
+		["level"] = 4,
+		["type"] = "residence",
+	},
+	["armor"] = 0,
+	["toughness"] = 0,
+	["children"] = 
+	{
+	},
+	["isAsleep"] = false,
+	["gender"] = "female",
+	["age"] = "adult",
+	["id"] = 63,
+	["state"] = "Working",
+	["name"] = "Kehlani W. Attilburgh",
+	["health"] = 30,
+	["saturation"] = 16.2424,
+	["work"] = 
+	{
+		["type"] = "builder",
+		["name"] = "com.minecolonies.building.builder",
+		["location"] = 
+		{
+			["y"] = 86,
+			["x"] = -4445,
+			["z"] = -239,
+		},
+		["level"] = 5,
+		["job"] = "com.minecolonies.job.builder",
+	},
+	["skills"] = 
+	{
+		["Athletics"] = 
+		{
+			["xp"] = 0.482125,
+			["level"] = 16,
+		},
+		["Creativity"] = 
+		{
+			["xp"] = 0.096425,
+			["level"] = 27,
+		},
+		["Mana"] = 
+		{
+			["xp"] = 0,
+			["level"] = 30,
+		},
+		["Intelligence"] = 
+		{
+			["xp"] = 0,
+			["level"] = 16,
+		},
+		["Knowledge"] = 
+		{
+			["xp"] = 0,
+			["level"] = 12,
+		},
+		["Dexterity"] = 
+		{
+			["xp"] = 55.9517875,
+			["level"] = 10,
+		},
+		["Agility"] = 
+		{
+			["xp"] = 0,
+			["level"] = 25,
+		},
+		["Adaptability"] = 
+		{
+			["xp"] = 0.96425,
+			["level"] = 27,
+		},
+		["Focus"] = 
+		{
+			["xp"] = 26.528575,
+			["level"] = 5,
+		},
+		["Stamina"] = 
+		{
+			["xp"] = 0,
+			["level"] = 35,
+		},
+		["Strength"] = 
+		{
+			["xp"] = 0.0482125,
+			["level"] = 34,
+		},
+	},
+	["maxHealth"] = 30,
+	["location"] = 
+	{
+		["y"] = 85,
+		["x"] = -4449,
+		["z"] = -291,
+	},
+}

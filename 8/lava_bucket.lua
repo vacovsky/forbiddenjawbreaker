@@ -9,6 +9,11 @@ local dispenser = 'create:spout_0'
 
 
 function BucketFiller()
+
+    -- CHECK IF WE NEED MORE LAVA
+    local stored_buckets = sc.count('minecraft:lava_bucket')
+    if stored_buckets >= 16 then print(stored_buckets, "lava buckets available") goto pass end
+
     -- FILL SPOUT
     local lava = peripheral.wrap(fluid_storage).pushFluid(dispenser)
     if lava > 0 then print('Refilled', lava, 'lava mb') end
@@ -31,6 +36,8 @@ function BucketFiller()
     -- local restockNum = whi.GetFromAnyWarehouse(false, 'minecraft:bucket', bottler, 16)
     local restockNum = sc.pull('minecraft:bucket', 16, true, bottler)
     if restockNum > 0 then print('Restocked', restockNum, 'buckets') end
+
+    ::pass::
 end
 
 
@@ -38,5 +45,5 @@ print('Starting BOTTLER')
 while true do
     if not pcall(BucketFiller) then print('BucketFiller() failed to complete') end
     -- BucketFiller()
-    sleep(1)
+    sleep(60)
 end
