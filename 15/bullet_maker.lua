@@ -33,8 +33,8 @@ function MakeBullets()
     -- MOVE EMPTY CASINGS TO WAREHOUSE
     for _, t in pairs(shellcatchers) do
         -- print(t)
-        local sc = peripheral.wrap(t)
-        for slot, item in pairs(sc.list()) do
+        local tp = peripheral.wrap(t)
+        for slot, item in pairs(tp.list()) do
             if string.find(item.name, casing) then
                 -- whi.DepositInAnyWarehouse(t, slot)
                 sc.push(t, slot)
@@ -70,7 +70,7 @@ end
 
 print("starting bullet maker")
 while true do
-    if not pcall(MakeBullets) then print('MakeBullets() failed to complete') end
-    -- MakeBullets()
+    -- if not pcall(MakeBullets) then print('MakeBullets() failed to complete') end
+    MakeBullets()
     sleep(5)
 end

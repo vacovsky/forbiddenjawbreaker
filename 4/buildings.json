@@ -1,0 +1,2687 @@
+[
+    {
+        "citizens": [],
+        "type": "townhall",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.townhall",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 75,
+            "x": 384,
+            "z": -641
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 111,
+                "x": 399,
+                "z": -632
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 58,
+                "x": 362,
+                "z": -668
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Chance G. Good",
+                "id": 18
+            }
+        ],
+        "type": "builder",
+        "isWorkingOn": false,
+        "storageBlocks": 9,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.builder",
+        "storageSlots": 243,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 66,
+            "x": 366,
+            "z": -614
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 372,
+                "z": -598
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 360,
+                "z": -620
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Alexis C. Garnis",
+                "id": 16
+            }
+        ],
+        "type": "builder",
+        "isWorkingOn": false,
+        "storageBlocks": 9,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.builder",
+        "storageSlots": 243,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 64,
+            "x": 439,
+            "z": -580
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 81,
+                "x": 445,
+                "z": -574
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 60,
+                "x": 433,
+                "z": -596
+            }
+        },
+        "priority": 10
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emilia W. Gascoigne",
+                "id": 5
+            },
+            {
+                "name": "Jon G. Gardiner",
+                "id": 10
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 76,
+            "x": 315,
+            "z": -581
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 107,
+                "x": 325,
+                "z": -575
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 305,
+                "z": -598
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emmeline C. Good",
+                "id": 1
+            },
+            {
+                "name": "Simeon C. Harris",
+                "id": 2
+            },
+            {
+                "name": "Matthew A. Complin",
+                "id": 3
+            },
+            {
+                "name": "Quentin M. Harris",
+                "id": 27
+            },
+            {
+                "name": "Kason G. Ayde",
+                "id": 15
+            }
+        ],
+        "type": "warehouse",
+        "isWorkingOn": false,
+        "storageBlocks": 157,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.warehouse",
+        "storageSlots": 4239,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 65,
+            "x": 429,
+            "z": -553
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 113,
+                "x": 443,
+                "z": -539
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 60,
+                "x": 423,
+                "z": -567
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kynlee X. Barefoot",
+                "id": 23
+            }
+        ],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 395,
+            "z": -583
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 84,
+                "x": 402,
+                "z": -579
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 394,
+                "z": -587
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Simeon C. Harris",
+                "id": 2
+            }
+        ],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 65,
+            "x": 429,
+            "z": -546
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 67,
+                "x": 431,
+                "z": -545
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 64,
+                "x": 429,
+                "z": -547
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emmeline C. Good",
+                "id": 1
+            },
+            {
+                "name": "Emmanuel M. Good",
+                "id": 6
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 69,
+            "x": 491,
+            "z": -586
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 97,
+                "x": 497,
+                "z": -578
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 475,
+                "z": -595
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Zoey H. Garnis",
+                "id": 20
+            },
+            {
+                "name": "Prince M. Good",
+                "id": 28
+            }
+        ],
+        "type": "university",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.university",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 74,
+            "x": 426,
+            "z": -502
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 100,
+                "x": 443,
+                "z": -482
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 67,
+                "x": 415,
+                "z": -505
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "miner",
+        "isWorkingOn": true,
+        "storageBlocks": 13,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.miner",
+        "storageSlots": 297,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 337,
+            "z": -497
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 105,
+                "x": 359,
+                "z": -483
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 328,
+                "z": -517
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Davis A. Chilton",
+                "id": 24
+            }
+        ],
+        "type": "builder",
+        "isWorkingOn": false,
+        "storageBlocks": 9,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.builder",
+        "storageSlots": 243,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 69,
+            "x": 431,
+            "z": -675
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 86,
+                "x": 437,
+                "z": -669
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 415,
+                "z": -681
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 79,
+            "x": 498,
+            "z": -500
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 92,
+                "x": 502,
+                "z": -493
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 494,
+                "z": -501
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Medieval Spruce",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 72,
+            "x": 155,
+            "z": -739
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 86,
+                "x": 162,
+                "z": -734
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 150,
+                "z": -742
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "cook",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.cook",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 72,
+            "x": 417,
+            "z": -638
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 425,
+                "z": -627
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 60,
+                "x": 407,
+                "z": -644
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emmanuel M. Good",
+                "id": 6
+            }
+        ],
+        "type": "lumberjack",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.lumberjack",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 72,
+            "x": 516,
+            "z": -534
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 87,
+                "x": 519,
+                "z": -527
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 506,
+                "z": -538
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 66,
+            "x": 342,
+            "z": -496
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 68,
+                "x": 343,
+                "z": -493
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 337,
+                "z": -499
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Isaac G. Clerk",
+                "id": 12
+            }
+        ],
+        "type": "stonemason",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.stonemason",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 353,
+            "z": -512
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 81,
+                "x": 356,
+                "z": -507
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 350,
+                "z": -516
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "stonesmeltery",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.stonesmeltery",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 356,
+            "z": -501
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 74,
+                "x": 356,
+                "z": -486
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 343,
+                "z": -501
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "smeltery",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.smeltery",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 356,
+            "z": -486
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 74,
+                "x": 356,
+                "z": -486
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 343,
+                "z": -501
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "postbox",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.postbox",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 74,
+            "x": 426,
+            "z": -501
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 74,
+                "x": 426,
+                "z": -501
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 74,
+                "x": 426,
+                "z": -501
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Jefferson G. Garnis",
+                "id": 17
+            }
+        ],
+        "type": "school",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.school",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 77,
+            "x": 420,
+            "z": -503
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 101,
+                "x": 443,
+                "z": -482
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 68,
+                "x": 415,
+                "z": -505
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kamari C. Complin",
+                "id": 32
+            }
+        ],
+        "type": "library",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.library",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 79,
+            "x": 428,
+            "z": -503
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 100,
+                "x": 443,
+                "z": -482
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 67,
+                "x": 415,
+                "z": -505
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "SherriLynne H. Good",
+                "id": 26
+            }
+        ],
+        "type": "baker",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.baker",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 63,
+            "x": 416,
+            "z": -639
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 65,
+                "x": 422,
+                "z": -633
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 411,
+                "z": -641
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kensley A. Kumar",
+                "id": 7
+            },
+            {
+                "name": "Davis A. Chilton",
+                "id": 24
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 64,
+            "x": 453,
+            "z": -633
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 102,
+                "x": 461,
+                "z": -621
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 60,
+                "x": 435,
+                "z": -644
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Alexis C. Garnis",
+                "id": 16
+            },
+            {
+                "name": "Simeon C. Harris",
+                "id": 2
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 69,
+            "x": 491,
+            "z": -568
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 97,
+                "x": 497,
+                "z": -560
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 475,
+                "z": -577
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kamari C. Complin",
+                "id": 32
+            },
+            {
+                "name": "Joaquin G. Complin",
+                "id": 19
+            },
+            {
+                "name": "Matthew A. Complin",
+                "id": 3
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 72,
+            "x": 393,
+            "z": -494
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 110,
+                "x": 404,
+                "z": -486
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 68,
+                "x": 381,
+                "z": -512
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kason G. Ayde",
+                "id": 15
+            }
+        ],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 2,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 54,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 66,
+            "x": 353,
+            "z": -606
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 74,
+                "x": 356,
+                "z": -601
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 64,
+                "x": 350,
+                "z": -608
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "stash",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.stash",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 66,
+            "x": 352,
+            "z": -604
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 66,
+                "x": 352,
+                "z": -604
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 352,
+                "z": -604
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Matthew A. Complin",
+                "id": 3
+            }
+        ],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 70,
+            "x": 425,
+            "z": -549
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 72,
+                "x": 427,
+                "z": -548
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 425,
+                "z": -550
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Joaquin G. Complin",
+                "id": 19
+            }
+        ],
+        "type": "sawmill",
+        "isWorkingOn": false,
+        "storageBlocks": 7,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.sawmill",
+        "storageSlots": 189,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 65,
+            "x": 417,
+            "z": -521
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 422,
+                "z": -519
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 61,
+                "x": 407,
+                "z": -537
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emmeline C. Good",
+                "id": 1
+            }
+        ],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 75,
+            "x": 440,
+            "z": -556
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 77,
+                "x": 441,
+                "z": -556
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 74,
+                "x": 439,
+                "z": -558
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Dakari A. Good",
+                "id": 9
+            }
+        ],
+        "type": "hospital",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.hospital",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 67,
+            "x": 470,
+            "z": -487
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 114,
+                "x": 488,
+                "z": -473
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 451,
+                "z": -515
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Humphrey C. Harris",
+                "id": 30
+            },
+            {
+                "name": "Kason G. Ayde",
+                "id": 15
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 71,
+            "x": 307,
+            "z": -562
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 109,
+                "x": 325,
+                "z": -551
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 67,
+                "x": 299,
+                "z": -574
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Isaac G. Clerk",
+                "id": 12
+            },
+            {
+                "name": "Emory G. Gardiner",
+                "id": 14
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 71,
+            "x": 307,
+            "z": -542
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 99,
+                "x": 323,
+                "z": -533
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 68,
+                "x": 301,
+                "z": -550
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Melvin B. Gorney",
+                "id": 13
+            }
+        ],
+        "type": "farmer",
+        "isWorkingOn": false,
+        "storageBlocks": 9,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.farmer",
+        "storageSlots": 243,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 65,
+            "x": 586,
+            "z": -498
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 85,
+                "x": 613,
+                "z": -469
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 52,
+                "x": 575,
+                "z": -527
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Chance G. Good",
+                "id": 18
+            },
+            {
+                "name": "SherriLynne H. Good",
+                "id": 26
+            },
+            {
+                "name": "Leonidas G. Madden",
+                "id": 11
+            },
+            {
+                "name": "Prince M. Good",
+                "id": 28
+            }
+        ],
+        "type": "tavern",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 3,
+        "name": "com.minecolonies.building.tavern",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 76,
+            "x": 501,
+            "z": -586
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 89,
+                "x": 515,
+                "z": -579
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 498,
+                "z": -595
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 66,
+            "x": 342,
+            "z": -502
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 68,
+                "x": 343,
+                "z": -499
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 337,
+                "z": -505
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emory G. Gardiner",
+                "id": 14
+            }
+        ],
+        "type": "blacksmith",
+        "isWorkingOn": false,
+        "storageBlocks": 6,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.blacksmith",
+        "storageSlots": 162,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 347,
+            "z": -544
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 82,
+                "x": 352,
+                "z": -533
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 342,
+                "z": -546
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Stefi M. Good",
+                "id": 22
+            }
+        ],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 79,
+            "x": 372,
+            "z": -494
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 92,
+                "x": 376,
+                "z": -487
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 368,
+                "z": -495
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Katalina G. Good",
+                "id": 8
+            }
+        ],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 70,
+            "x": 228,
+            "z": -776
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 232,
+                "z": -775
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 61,
+                "x": 224,
+                "z": -783
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Ariadne A. Adams",
+                "id": 21
+            }
+        ],
+        "type": "cowboy",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.cowboy",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 65,
+            "x": 605,
+            "z": -563
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 89,
+                "x": 609,
+                "z": -560
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 57,
+                "x": 578,
+                "z": -591
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "rabbithutch",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.rabbithutch",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 60,
+            "x": 593,
+            "z": -563
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 70,
+                "x": 609,
+                "z": -560
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 57,
+                "x": 578,
+                "z": -591
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Scott M. Goodwin",
+                "id": 25
+            }
+        ],
+        "type": "shepherd",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.shepherd",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 65,
+            "x": 582,
+            "z": -563
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 89,
+                "x": 609,
+                "z": -560
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 57,
+                "x": 578,
+                "z": -591
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "swineherder",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.swineherder",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 65,
+            "x": 589,
+            "z": -563
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 89,
+                "x": 609,
+                "z": -560
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 57,
+                "x": 578,
+                "z": -591
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "chickenherder",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.chickenherder",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 65,
+            "x": 598,
+            "z": -563
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 70,
+                "x": 609,
+                "z": -560
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 57,
+                "x": 578,
+                "z": -591
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "mysticalsite",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.mysticalsite",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 85,
+            "x": 301,
+            "z": -764
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 98,
+                "x": 330,
+                "z": -671
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 60,
+                "x": 272,
+                "z": -768
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Melvin B. Gorney",
+                "id": 13
+            },
+            {
+                "name": "Thomasin C. Barre",
+                "id": 31
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 75,
+            "x": 592,
+            "z": -436
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 106,
+                "x": 602,
+                "z": -430
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 64,
+                "x": 582,
+                "z": -453
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Jefferson G. Garnis",
+                "id": 17
+            },
+            {
+                "name": "Dakari A. Good",
+                "id": 9
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 73,
+            "x": 506,
+            "z": -463
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 101,
+                "x": 515,
+                "z": -457
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 498,
+                "z": -479
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "postbox",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.postbox",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 68,
+            "x": 353,
+            "z": -525
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 68,
+                "x": 353,
+                "z": -525
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 68,
+                "x": 353,
+                "z": -525
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "postbox",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.postbox",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 64,
+            "x": 421,
+            "z": -603
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 64,
+                "x": 421,
+                "z": -603
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 64,
+                "x": 421,
+                "z": -603
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Emilia W. Gascoigne",
+                "id": 5
+            }
+        ],
+        "type": "glassblower",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.glassblower",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 70,
+            "x": 318,
+            "z": -619
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 88,
+                "x": 325,
+                "z": -607
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 300,
+                "z": -638
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Jon G. Gardiner",
+                "id": 10
+            }
+        ],
+        "type": "fletcher",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.fletcher",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 68,
+            "x": 287,
+            "z": -653
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 77,
+                "x": 298,
+                "z": -648
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 67,
+                "x": 286,
+                "z": -659
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Kensley A. Kumar",
+                "id": 7
+            }
+        ],
+        "type": "mechanic",
+        "isWorkingOn": false,
+        "storageBlocks": 7,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.mechanic",
+        "storageSlots": 189,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 71,
+            "x": 385,
+            "z": -716
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 86,
+                "x": 405,
+                "z": -690
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 374,
+                "z": -721
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Humphrey C. Harris",
+                "id": 30
+            }
+        ],
+        "type": "concretemixer",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.concretemixer",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 70,
+            "x": 318,
+            "z": -626
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 88,
+                "x": 325,
+                "z": -607
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 300,
+                "z": -638
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Leonidas G. Madden",
+                "id": 11
+            }
+        ],
+        "type": "builder",
+        "isWorkingOn": false,
+        "storageBlocks": 9,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.builder",
+        "storageSlots": 243,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 66,
+            "x": 563,
+            "z": -591
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 569,
+                "z": -575
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 557,
+                "z": -597
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Quentin M. Harris",
+                "id": 27
+            }
+        ],
+        "type": "deliveryman",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.deliveryman",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 80,
+            "x": 433,
+            "z": -541
+        },
+        "level": 4,
+        "structure": {
+            "cornerB": {
+                "y": 82,
+                "x": 434,
+                "z": -541
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 79,
+                "x": 432,
+                "z": -543
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Linda C. Harris",
+                "id": 4
+            },
+            {
+                "name": "Ariadne A. Adams",
+                "id": 21
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 69,
+            "x": 629,
+            "z": -560
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 100,
+                "x": 639,
+                "z": -543
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 58,
+                "x": 619,
+                "z": -566
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Scott M. Goodwin",
+                "id": 25
+            },
+            {
+                "name": "Raylan G. Hampden",
+                "id": 29
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 73,
+            "x": 524,
+            "z": -463
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 101,
+                "x": 533,
+                "z": -457
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 516,
+                "z": -479
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Zoey H. Garnis",
+                "id": 20
+            },
+            {
+                "name": "Quentin M. Harris",
+                "id": 27
+            }
+        ],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 73,
+            "x": 517,
+            "z": -448
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 101,
+                "x": 533,
+                "z": -439
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 70,
+                "x": 511,
+                "z": -456
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Raylan G. Hampden",
+                "id": 29
+            }
+        ],
+        "type": "enchanter",
+        "isWorkingOn": false,
+        "storageBlocks": 4,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.enchanter",
+        "storageSlots": 108,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 119,
+            "x": 406,
+            "z": -433
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 133,
+                "x": 412,
+                "z": -422
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 95,
+                "x": 400,
+                "z": -440
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "crusher",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.crusher",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 65,
+            "x": 288,
+            "z": -615
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 82,
+                "x": 297,
+                "z": -609
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 61,
+                "x": 279,
+                "z": -631
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "netherworker",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.netherworker",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 72,
+            "x": 525,
+            "z": -501
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 90,
+                "x": 547,
+                "z": -491
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 521,
+                "z": -511
+            }
+        },
+        "priority": 2
+    },
+    {
+        "citizens": [
+            {
+                "name": "Thomasin C. Barre",
+                "id": 31
+            }
+        ],
+        "type": "composter",
+        "isWorkingOn": false,
+        "storageBlocks": 3,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.composter",
+        "storageSlots": 81,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 70,
+            "x": 617,
+            "z": -448
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 85,
+                "x": 623,
+                "z": -445
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 66,
+                "x": 610,
+                "z": -461
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "postbox",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.postbox",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": false,
+        "location": {
+            "y": 64,
+            "x": 457,
+            "z": -563
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 64,
+                "x": 457,
+                "z": -563
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 64,
+                "x": 457,
+                "z": -563
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "stash",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 0,
+        "name": "com.minecolonies.building.stash",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": false,
+        "location": {
+            "y": 62,
+            "x": 457,
+            "z": -563
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 62,
+                "x": 457,
+                "z": -563
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 62,
+                "x": 457,
+                "z": -563
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [
+            {
+                "name": "Linda C. Harris",
+                "id": 4
+            }
+        ],
+        "type": "beekeeper",
+        "isWorkingOn": false,
+        "storageBlocks": 2,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.beekeeper",
+        "storageSlots": 54,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 70,
+            "x": 525,
+            "z": -554
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 541,
+                "z": -548
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 67,
+                "x": 523,
+                "z": -563
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 78,
+            "x": 528,
+            "z": -425
+        },
+        "level": 2,
+        "structure": {
+            "cornerB": {
+                "y": 91,
+                "x": 532,
+                "z": -418
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 524,
+                "z": -426
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "guardtower",
+        "isWorkingOn": false,
+        "storageBlocks": 5,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.guardtower",
+        "storageSlots": 135,
+        "built": true,
+        "guarded": true,
+        "location": {
+            "y": 70,
+            "x": 647,
+            "z": -534
+        },
+        "level": 3,
+        "structure": {
+            "cornerB": {
+                "y": 83,
+                "x": 654,
+                "z": -530
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 61,
+                "x": 646,
+                "z": -538
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "residence",
+        "isWorkingOn": true,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": false,
+        "location": {
+            "y": 74,
+            "x": 485,
+            "z": -660
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 105,
+                "x": 502,
+                "z": -650
+            },
+            "rotation": 1,
+            "mirror": false,
+            "cornerA": {
+                "y": 63,
+                "x": 479,
+                "z": -670
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "residence",
+        "isWorkingOn": false,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.residence",
+        "storageSlots": 27,
+        "built": true,
+        "guarded": false,
+        "location": {
+            "y": 69,
+            "x": 514,
+            "z": -668
+        },
+        "level": 1,
+        "structure": {
+            "cornerB": {
+                "y": 107,
+                "x": 526,
+                "z": -650
+            },
+            "rotation": 2,
+            "mirror": false,
+            "cornerA": {
+                "y": 65,
+                "x": 503,
+                "z": -676
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "barracks",
+        "isWorkingOn": true,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.barracks",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": true,
+        "location": {
+            "y": 71,
+            "x": 389,
+            "z": -752
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 125,
+                "x": 415,
+                "z": -730
+            },
+            "rotation": 0,
+            "mirror": false,
+            "cornerA": {
+                "y": 69,
+                "x": 361,
+                "z": -808
+            }
+        },
+        "priority": 1
+    },
+    {
+        "citizens": [],
+        "type": "plantation",
+        "isWorkingOn": true,
+        "storageBlocks": 1,
+        "style": "Steampunk",
+        "maxLevel": 5,
+        "name": "com.minecolonies.building.plantation",
+        "storageSlots": 27,
+        "built": false,
+        "guarded": false,
+        "location": {
+            "y": 65,
+            "x": 638,
+            "z": -599
+        },
+        "level": 0,
+        "structure": {
+            "cornerB": {
+                "y": 117,
+                "x": 642,
+                "z": -577
+            },
+            "rotation": 3,
+            "mirror": false,
+            "cornerA": {
+                "y": 59,
+                "x": 615,
+                "z": -621
+            }
+        },
+        "priority": 1
+    }
+]
