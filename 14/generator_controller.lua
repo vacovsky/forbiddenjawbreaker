@@ -34,7 +34,11 @@ function GeneratorController()
         redstone.setOutput(MOTOR_DIRECTION, false)
         while data.energy_capacity * 0.95 > data.energy_stored do
             data = getPowerStats()
-            sleep(3)
+            if data.energy_stored > data.energy_capacity * 0.95 then
+                redstone.setOutput(MOTOR_DIRECTION, true)
+                GEN_STATE = false
+            end
+            sleep(1)
         end
     else
         if GEN_STATE then
