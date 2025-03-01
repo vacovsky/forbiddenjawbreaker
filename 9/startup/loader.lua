@@ -6,4 +6,4 @@ rednet.host("storage_client", ("%s"):format(os.getComputerID()))
 
 
 shell.openTab("source_stone_imbuer")
-shell.openTab("ars_guard_provisioner")
+shell.openTab("ars_guard_provisioner_iron")
