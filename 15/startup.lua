@@ -1,6 +1,6 @@
 -- startup.lua
 
--- sleep(120)
+sleep(120)
 
 local local_modem = "back"
 rednet.open(local_modem)

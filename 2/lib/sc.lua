@@ -1,7 +1,7 @@
 -- lib/sc.lua
 -- storage_client
 
-local sc = { _version = '0.0.4' }
+local sc = { _version = '0.0.5' }
 
 local tsdb = require 'lib/tsdb'
 
@@ -79,6 +79,7 @@ function sc.pull(itemName, quantity, strict, destStorageName, destSlot)
         end
     end
     logRequestTime("sc.pull", os.epoch('utc') - req_start)
+    sleep(1)
     return tot_transferred
 end
 

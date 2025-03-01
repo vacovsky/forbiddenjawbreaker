@@ -1,5 +1,4 @@
 local net = require 'lib/network'
-local net = require 'lib/network'
 
 
 local pedestal = "pedestal"
