@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 12,
+    "crafter": "farmer_crafting",
+    "inputs": [
+      {
+        "count": 8,
+        "item": "mysticalagriculture:enderman_essence"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "minecraft:ender_pearl"
+}

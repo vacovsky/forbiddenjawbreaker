@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "crusher_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "create:copper_sheet"
+  }

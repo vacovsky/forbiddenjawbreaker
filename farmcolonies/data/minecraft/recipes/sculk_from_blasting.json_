@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "blasting",
+  "ingredient": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": "minecraft:sculk",
+  "experience": 0.07,
+  "cookingtime": 100
+}

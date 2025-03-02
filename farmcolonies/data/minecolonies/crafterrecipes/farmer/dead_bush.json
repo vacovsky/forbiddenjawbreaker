@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "farmer_crafting",
+    "inputs": [
+      {
+        "count": 2,
+        "item": "minecraft:small_dripleaf"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 1,
+    "result": "minecraft:big_dripleaf"
+  }

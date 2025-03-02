@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 9,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "scguns:nitro_powder"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "scguns:nitro_powder_dust"
+  }

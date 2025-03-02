@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:glowstone_dust"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "result": "scguns:phosphor_dust"
+  }

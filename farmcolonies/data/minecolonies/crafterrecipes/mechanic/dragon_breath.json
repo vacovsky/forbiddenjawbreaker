@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "result": "minecraft:dragon_breath"
+}

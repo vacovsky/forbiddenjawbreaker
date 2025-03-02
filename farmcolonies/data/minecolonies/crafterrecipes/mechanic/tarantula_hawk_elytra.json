@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_crafting",
+    "inputs": [
+      {
+        "item": "minecraft:lodestone",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sculk",
+        "count": 6
+      },
+      {
+        "item": "alexsmobs:tarantula_hawk_wing",
+        "count": 2
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "alexsmobs:tarantula_hawk_elytra"
+  }

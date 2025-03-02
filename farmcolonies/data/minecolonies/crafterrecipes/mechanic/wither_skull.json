@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_crafting",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "productivebees:wither_skull_chip"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "minecraft:wither_skeleton_skull"
+  }

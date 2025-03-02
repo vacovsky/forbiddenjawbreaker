@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "mechanic_custom",
+  "inputs": [
+    {
+      "item": "scguns:large_brass_casing",
+      "count": 1
+    },
+    {
+      "item": "scguns:nitro_powder",
+      "count": 1
+    },
+    {
+      "item": "scguns:anthralite_ingot",
+      "count": 1
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "result": "scguns:krahg_round"
+}

@@ -1,0 +1,18 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 4,
+        "item": "mysticalagriculture:prosperity_shard"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:diamond"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 1,
+    "result": "mysticalagriculture:prosperity_gemstone"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 9,
+    "crafter": "blacksmith_crafting",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "scguns:anthralite_ingot"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "scguns:anthralite_nugget"
+  }

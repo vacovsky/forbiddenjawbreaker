@@ -1,0 +1,34 @@
+{
+    "type": "recipe",
+    "count": 7,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "count": 1,
+        "item": "scguns:peal"
+      },
+      {
+        "count": 1,
+        "item": "scguns:niter_dust"
+      },
+      {
+        "count": 1,
+        "item": "scguns:phosphor_dust"
+      },
+      {
+        "count": 1,
+        "item": "scguns:sheol"
+      },
+      {
+        "count": 4,
+        "item": "scguns:netherite_scrap_chunk"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "scguns:nitro_powder"
+  }

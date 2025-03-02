@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "item": "scguns:medium_brass_casing",
+        "count": 1
+      },
+      {
+        "item": "scguns:gunpowder_dust",
+        "count": 1
+      },
+      {
+        "item": "scguns:anthralite_nugget",
+        "count": 1
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "scguns:advanced_round"
+  }

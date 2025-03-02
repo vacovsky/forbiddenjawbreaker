@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "smelting",
+  "ingredient": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": "scguns:raw_anthralite",
+  "experience": 0.07,
+  "cookingtime": 400
+}

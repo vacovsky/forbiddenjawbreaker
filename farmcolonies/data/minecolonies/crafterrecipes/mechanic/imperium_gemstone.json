@@ -1,0 +1,18 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 2,
+        "item": "mysticalagriculture:imperium_essence"
+      },
+      {
+        "count": 1,
+        "item": "mysticalagriculture:prosperity_gemstone"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 1,
+    "result": "mysticalagriculture:imperium_gemstone"
+}

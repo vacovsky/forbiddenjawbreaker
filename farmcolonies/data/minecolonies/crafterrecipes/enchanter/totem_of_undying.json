@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "paraglider:spirit_orb"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "minecraft:totem_of_undying"
+  }

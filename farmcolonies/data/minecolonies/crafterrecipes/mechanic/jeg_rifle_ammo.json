@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "count": 8,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 3,
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "count": 3,
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "count": 9,
+        "item": "minecraft:granite"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "result": "jeg:rifle_ammo"
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "stonemason_crafting",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:fire_coral_fan"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "minecraft:dead_fire_coral_fan"
+  }

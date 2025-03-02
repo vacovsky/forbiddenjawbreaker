@@ -1,0 +1,14 @@
+
+
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "group": "smelting",
+    "ingredient": {
+      "item": "scguns:crushed_raw_anthralite"
+    },
+    "result": "scguns:anthralite_ingot",
+    "experience": 0.07,
+    "cookingtime": 400
+  }
+  

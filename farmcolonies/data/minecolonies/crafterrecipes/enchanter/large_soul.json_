@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "unusual_delight:soul"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "unusual_delight:warding_soul"
+  }

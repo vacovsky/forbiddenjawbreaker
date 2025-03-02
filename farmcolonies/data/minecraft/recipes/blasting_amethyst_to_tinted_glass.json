@@ -1,0 +1,13 @@
+
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "group": "blasting",
+    "ingredient": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "result": "minecraft:tinted_glass",
+    "experience": 0.07,
+    "cookingtime": 400
+  }
+  

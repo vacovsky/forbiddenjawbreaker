@@ -1,0 +1,42 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oak_planks",
+        "count": 1
+      },
+      {
+        "item": "scguns:gun_magazine",
+        "count": 1
+      },
+      {
+        "item": "scguns:gun_parts",
+        "count": 1
+      },
+      {
+        "item": "scguns:gun_grip",
+        "count": 1
+      },
+      {
+        "item": "scguns:gun_barrel",
+        "count": 1
+      },
+      {
+        "item": "scguns:firing_unit",
+        "count": 1
+      },      
+      {
+        "item": "scguns:iron_gun_frame",
+        "count": 1
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "scguns:m3_carabine"
+  }

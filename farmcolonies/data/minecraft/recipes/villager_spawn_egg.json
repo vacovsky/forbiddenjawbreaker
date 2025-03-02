@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "%%%",
+      "%#%",
+      "%%%"
+    ],
+    "key": {
+      "%": {
+        "item": "minecraft:emerald_block"
+      },
+      "#": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "minecraft:villager_spawn_egg"
+    }
+  }
+  

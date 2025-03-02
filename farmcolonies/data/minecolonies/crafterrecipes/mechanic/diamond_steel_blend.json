@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "count": 3,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:redstone"
+      },
+      {
+        "count": 1,
+        "item": "scguns:raw_anthralite"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:diamond"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:lapis_lazuli"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "result": "scguns:diamond_steel_blend"
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "stonemason_crafting",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "create:powdered_obsidian"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "minecraft:obsidian"
+  }

@@ -1,0 +1,13 @@
+
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "group": "smelting",
+    "ingredient": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "result": "minecraft:glass",
+    "experience": 0.07,
+    "cookingtime": 400
+  }
+  

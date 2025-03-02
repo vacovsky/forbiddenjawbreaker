@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "count": 9,
+    "crafter": "blacksmith_crafting",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "scguns:niter_dust"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:charcoal"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:flint"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "result": "scguns:treated_iron_blend"
+  }

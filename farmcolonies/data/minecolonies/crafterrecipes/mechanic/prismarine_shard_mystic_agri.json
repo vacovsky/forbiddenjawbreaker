@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 8,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 3,
+        "item": "mysticalagriculture:prismarine_essence"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "result": "minecraft:prismarine_shard"
+}

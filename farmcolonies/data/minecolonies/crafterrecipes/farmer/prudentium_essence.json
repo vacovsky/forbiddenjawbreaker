@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "farmer_crafting",
+    "inputs": [
+      {
+        "count": 5,
+        "item": "mysticalagriculture:inferium_essence"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "result": "mysticalagriculture:prudentium_essence"
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "mechanic_crafting",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "productivebees:draconic_dust"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "productivebees:draconic_chunk"
+  }

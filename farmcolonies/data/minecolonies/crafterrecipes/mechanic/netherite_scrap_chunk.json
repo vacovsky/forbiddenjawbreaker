@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 8,
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 1,
+        "item": "minecraft:netherite_scrap"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "result": "scguns:netherite_scrap_chunk"
+  }

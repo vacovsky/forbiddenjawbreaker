@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "farmer_crafting",
+    "inputs": [
+      {
+        "count": 9,
+        "item": "mysticalagriculture:diamond_essence"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "result": "minecraft:diamond"
+}
