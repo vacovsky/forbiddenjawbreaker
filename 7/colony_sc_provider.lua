@@ -3,7 +3,7 @@ local sc = require "lib/sc"
 local net = require "lib/network"
 
 local colony = peripheral.find("colonyIntegrator")
-local COLONY_WAREHOUSE = "minecolonies:stash"
+local COLONY_WAREHOUSE = "minecolonies:warehouse"
 
 function FullfillColonyRequests()
     local warehouses = net.ListMatchingDevices(COLONY_WAREHOUSE)
@@ -42,5 +42,5 @@ end
 
 while true do
     FullfillColonyRequests()
-    sleep(60)
+    sleep(15)
 end
