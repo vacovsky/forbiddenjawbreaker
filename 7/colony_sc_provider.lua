@@ -3,7 +3,7 @@ local sc = require "lib/sc"
 local net = require "lib/network"
 
 local colony = peripheral.find("colonyIntegrator")
-local COLONY_WAREHOUSE = "minecolonies:warehouse"
+local COLONY_WAREHOUSE = "ender_chest_13"
 
 function FullfillColonyRequests()
     local warehouses = net.ListMatchingDevices(COLONY_WAREHOUSE)
@@ -18,7 +18,7 @@ function FullfillColonyRequests()
                 local aMove = sc.pull(item.name, request.count * 5, true, wh, nil)
                 if aMove > 0 then
                     moved = moved + aMove
-                    print("partial:", aMove, item.displayName)
+                    print("partial:", moved, item.displayName)
                 end
             end
             if moved == request.count then
