@@ -36,18 +36,67 @@ function colonylib.GetSleepingCitizenCount()
     local counter = 0
     local ci = peripheral.find('colonyIntegrator')
     for _, cit in pairs(ci.getCitizens()) do
-        if cit.isAsleep then
+        if cit.isAsleep or cit.state == 'Sleeping zZZ' then
             counter = counter + 1
         end
     end
     return counter
 end
 
+
+function colonylib.GetDeliveringCitizenCount()
+    local counter = 0
+    local ci = peripheral.find('colonyIntegrator')
+    for _, cit in pairs(ci.getCitizens()) do
+        if cit.isAsleep or cit.state == 'Delivering' then
+            counter = counter + 1
+        end
+    end
+    return counter
+end
+
+
+function colonylib.GetDissatisfiedCitizenCount()
+    local counter = 0
+    local ci = peripheral.find('colonyIntegrator')
+    for _, cit in pairs(ci.getCitizens()) do
+        if cit.betterFood then
+            counter = counter + 1
+        end
+    end
+    return counter
+end
+
+
 function colonylib.GetHungryCitizenCount()
     local counter = 0
     local ci = peripheral.find('colonyIntegrator')
     for _, cit in pairs(ci.getCitizens()) do
         if cit.betterFood then
+            counter = counter + 1
+        end
+    end
+    return counter
+end
+
+
+function colonylib.GetIdleCitizenCount()
+    local counter = 0
+    local ci = peripheral.find('colonyIntegrator')
+    for _, cit in pairs(ci.getCitizens()) do
+        if cit.state == "Idle" then
+            counter = counter + 1
+        end
+    end
+    return counter
+end
+
+
+function colonylib.GetWorkingCitizenCount()
+    local counter = 0
+    local ci = peripheral.find('colonyIntegrator')
+    for _, cit in pairs(ci.getCitizens()) do
+        if cit.state == "Working" or cit.state == "Delivering" or cit.state == "Mining" then
             counter = counter + 1
         end
     end
@@ -107,6 +156,10 @@ function colonylib.GetStatusOfAttachedDevices()
     MM['getRequests'] = colonylib.GetOpenRequestsCount()
     MM['getWorkOrders'] = colonylib.GetOpenWorkOrdersCount()
     MM['getHungryCitizens'] = colonylib.GetHungryCitizenCount()
+    MM['getIdleCitizens'] = colonylib.GetIdleCitizenCount()
+    MM['geDeliveringCitizens'] = colonylib.GetDeliveringCitizenCount()
+    MM['getDissatisfiedCitizens'] = colonylib.GetDissatisfiedCitizenCount()
+    MM['getWorkingCitizens'] = colonylib.GetWorkingCitizenCount()
     MM['getSleepingCitizens'] = colonylib.GetSleepingCitizenCount()
     MM['getCitizens'] = colonylib.GetCitizens()
     MM['getSickCitizens'] = colonylib.GetSickCitizenCount()
