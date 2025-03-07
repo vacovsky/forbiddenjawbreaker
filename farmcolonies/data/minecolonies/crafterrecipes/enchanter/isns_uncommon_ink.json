@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "count": 4,
+        "item": "irons_spellbooks:common_ink"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "result": "irons_spellbooks:uncommon_ink"
+  }
+
+  

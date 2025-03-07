@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "count": 4,
+        "item": "irons_spellbooks:epic_ink"
+      },
+      {
+        "count": 1,
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "result": "irons_spellbooks:legendary_ink"
+  }
+
+  
